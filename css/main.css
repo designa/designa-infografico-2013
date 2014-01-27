@@ -1,80 +1,219 @@
 .main {
-  background: #59CDD3;
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.designa-retro {
+.header {
   width: 100%;
+  margin: 0 0 1px 0;
+  position: relative;
+}
+
+.header .left-cubes,
+.header .right-cubes,
+.header .top-cubes {
+  position: absolute;
+  width: 20%;
+}
+
+.header .left-cubes {
+  bottom: 5%;
+  left: -7.5%;
+}
+
+.header .right-cubes {
+  top: 2.5%;
+  right: 1%;
+}
+
+.header .top-cubes {
+  top: -15%;
+  left: 10%;
+}
+
+.header .designa-logo,
+.header .ano {
+  margin-bottom: 5%;
+}
+
+.header .designa-logo {
+  width: 30%;
+}
+
+.header .ano {
+  width: 90%;
+}
+
+.header a {
+  position: relative;
+  top: 95%;
+  font-size: 1.5em;
+}
+
+.segunda-sessao {
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.clientes-atendidos {
   display: inline-block;
-  height: 99%;
+  width: 100%;
+}
+
+.clientes-atendidos,
+.clientes-atendidos img {
+  vertical-align: middle;
+}
+
+.clientes-atendidos .quantidade {
+  width: 20%;
+}
+
+.clientes-atendidos .clientes {
+  width: 75%;
+}
+
+.clientes-atendidos .quantidade,
+.horas-programacao .notebook {
+  float: left;
+}
+
+.clientes-atendidos .clientes,
+.horas-programacao .partidas-futebol {
+  float: right;
+}
+
+.horas-programacao .qtd-horas {
+  width: 100%;
+}
+
+.horas-programacao .notebook {
+  width: 30%;
+  margin-top: 5%;
+}
+
+.horas-programacao .partidas-futebol {
+  width: 70%;
+}
+
+.terceira-sessao {
+  background: #03738E;
+  margin-top: 0;
   padding: 3% 0;
 }
 
-.designa-retro header {
-  display: inline-block;
-  letter-spacing: -1px;
-  position: absolute;
-  left: 50%;
-  margin-left: -12.5%;
+.terceira-sessao .projetos .qts-projetos {
+  width: 50%;
+  margin-bottom: 5%;
 }
 
-.designa-retro img {
-  height: 75%;
-  position: absolute;
-  left: -25%;
-  top: 50%;
-  margin-top: -25%;
+.terceira-sessao .projetos .repositorios {
+  width: 80%;
 }
 
-.designa-retro h1 {
-  font-family: "Montserrat";
-  left: 25%;
-  position: relative;
-  font-size: 3em;
+.terceira-sessao .projetos p {
+  color: white;
+  padding: 0 5%;
 }
 
-.designa-retro span.retrospectiva {
-  display: block;
-  font-size: 0.65em;
-  color: #17AAB1;
-  text-transform: uppercase;
+.terceira-sessao .projetos .explicacao-repositorio {
+  margin-top: 5%;
 }
 
-.designa-retro p.ano {
-  z-index: 1;
-  color: #fff;
-  position: relative;
-  font-size: 22.5em;
-  text-align: center;
-  margin-top: 10%;
-  -webkit-text-shadow: 0 .05em 0 #18abb2;
-  -moz-text-shadow: 0 .05em 0 #18abb2;
-  -o-text-shadow: 0 .05em 0 #18abb2;
-  text-shadow: 0 .05em 0 #18abb2;
+.terceira-sessao .tecnologias .descricao-tecnologias {
+  width: 70%;
 }
 
-.o-que-fizemos-container {
+.terceira-sessao .tecnologias .sistemas {
+  margin-top: 5%;
+  width: 70%;
+}
+
+.terceira-sessao .hackatons {
+  margin-top: 5%;
+}
+
+.terceira-sessao .hackatons .maratona {
+  width: 80%;
+}
+
+.terceira-sessao .hackatons .iron-man {
   width: 100%;
-  position: absolute;
-  top: 50%;
-  text-align: center;
 }
 
-.designa-retro p.o-que-fizemos {
-  z-index: 2;
+.terceira-sessao .premios-hackatons {
+  margin-top: 5%;
+}
+
+.terceira-sessao .premios-hackatons .premios {
+  width: 90%;
+  margin-bottom: 5%;
+}
+
+.terceira-sessao .premios-hackatons .youtube-developer {
+  width: 80%;
+}
+
+.terceira-sessao .premios-hackatons .divisoria {
+  background: #15859C;
+  width: 50%;
+  height: 2px;
+  margin: 2.5% auto;
+}
+
+.terceira-sessao .premios-hackatons .google-chrome {
+  width: 75%;
+}
+
+.quarta-sessao img {
+  width: 100%;
+}
+
+.quarta-sessao .designa-team {
+  margin: 2.5% 0 5% 0;
+}
+
+.quinta-sessao {
+  background: #E5772C;
+  padding: 7.5% 0;
+}
+
+.quinta-sessao .eventos-cursos .aprendizado,
+.quinta-sessao .eventos-cursos .pos-graduacao {
+  width: 85%;
+}
+
+.quinta-sessao .express-projects .express {
+  width: 100%;
+}
+
+.quinta-sessao .express-projects p {
+  padding: 0 7.5%;
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+}
+
+.footer {
+  background: #E5772C;
+  margin-top: 2px;
+  width: 100%;
   position: relative;
-  font-size: 4em;
-  color: #fff;
-  text-align: center;
-  font-weight: lighter;
-  background: #03738E;
-  padding: 0.1em 1.75em;
-  text-align: center;
-  display: inline-block;
-  -webkit-text-shadow: 0 .05em 0 #006274;
-  -moz-text-shadow: 0 .05em 0 #006274;
-  -o-text-shadow: 0 .05em 0 #006274;
-  text-shadow: 0 .05em 0 #006274;
+}
+
+.footer img {
+  display: inline;
+}
+
+.footer .designa-retro,
+.footer .ano-menor {
+  width: 25%;
+}
+
+.footer .desenvolvimento {
+  width: 40%;
+  margin-left: 5%;
 }

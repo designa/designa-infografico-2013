@@ -11,6 +11,15 @@ body {
   color: #05758F;
 }
 
+hr {
+  clear: both;
+  height: 1px;
+  border: none;
+  background: white;
+  width: 100%;
+  margin: 5% 0;
+}
+
 p {
   font-weight: 600;
 }
@@ -55,8 +64,25 @@ h6 {
   margin: 2.33em 0;
 }
 
-.destaque {
-  color: #F7B800;
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+section,
+.header,
+.footer {
+  padding: 3% 7.5%;
+  background: #59CDD3;
+  text-align: center;
+  display: inline-block;
+}
+
+.pull-left {
+  float: left;
 }
 
 /*responsividade*/
