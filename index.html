@@ -6,12 +6,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Designa - Infográfico 2013</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/fonts.css">
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -26,6 +28,8 @@
             <img src="img/top_cubes.png" class="top-cubes">
             <img src="img/designa.png" class="designa-logo">
             <img src="img/2013.png" class="ano">
+            <img src="img/bandeira_inferior.png" class="bandeira-inferior">
+            <img src="img/bandeira_superior.png" class="bandeira-superior">
             <a href="http://designa.com.br">www.designa.com.br</a>
 
           </header>
@@ -33,14 +37,24 @@
           <section class="segunda-sessao">
 
             <div class="clientes-atendidos">
-              <img src="img/25clientes.png" class="quantidade">
-              <img src="img/cliente.png" class="clientes">
+              <div class="quantidade">
+                <h1 class="contagem-clientes texto-com-sombra">0</h1>
+                <p class="palavra-clientes">clientes</p>
+                <p class="atendidos">atendidos no ano</p>
+              </div>
+              <div class="clientes"></div>
             </div>
 
             <hr>
 
             <div class="horas-programacao">
-              <img src="img/qtd_horas.png" class="qtd-horas">
+              <div class="horas">
+                <h1 class="texto-com-sombra"><span class="contagem-horas">0</span> <span>h<span class="relogio"><span class="ponteiros"></span>o</span>ras</span></h1>
+              </div>
+              <div class="programacao">
+                <p>de</p>
+                <p>programação</p>
+              </div>
               <img src="img/notebook.png" class="notebook">
               <img src="img/partidas_futebol.png" class="partidas-futebol">
             </div>
@@ -131,9 +145,11 @@
           </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/contagem_clientes.js"></script>
+        <script src="js/contagem_horas_programacao.js"></script>
     </body>
 </html>

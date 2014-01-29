@@ -7,7 +7,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Varela Round";
+  font-family: "Proxima Nova";
   color: #05758F;
 }
 
@@ -85,11 +85,19 @@ section,
   float: left;
 }
 
+.texto-com-sombra {
+  text-shadow: -0.01em 0.05em #169AA0, 0.01em 0.09em #52B8BE;
+}
+
 /*responsividade*/
 
 @media (min-width: 320px) {
     html {
       font-size: 33%;
+    }
+
+    .header {
+      height: 187px;
     }
 }
 
@@ -97,11 +105,19 @@ section,
     html {
       font-size: 50%;
     }
+
+    .header {
+      height: 281px;
+    }
 }
 
 @media (min-width: 600px) {
     html {
       font-size: 67%;
+    }
+
+    .header {
+      height: 351px;
     }
 }
 
@@ -109,10 +125,18 @@ section,
     html {
       font-size: 83%;
     }
+
+    .header {
+      height: 449px;
+    }
 }
 
 @media (min-width: 1024px) {
     html {
       font-size: 100%;
+    }
+
+    .header {
+      height: 600px;
     }
 }

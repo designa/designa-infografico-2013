@@ -1,0 +1,87 @@
+@-webkit-keyframes descer_bandeira_inferior {
+	from {
+    top: -61%;
+  }
+
+  to {
+    top: 61%;
+  }
+}
+
+@-webkit-keyframes descer_bandeira_superior {
+  from {
+    top: -68%;
+  }
+
+  to {
+    top: 54%;
+  }
+}
+
+@-webkit-keyframes subir_ano {
+  from {
+    top: 135%;
+  }
+
+  to {
+    top: 35%;
+  }
+}
+
+.header .bandeira-inferior {
+  -webkit-animation-name: descer_bandeira_inferior;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+}
+
+.header .bandeira-superior {
+  -webkit-animation-name: descer_bandeira_superior;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+}
+
+.header .ano {
+  -webkit-animation-name: subir_ano;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes ponteiro_de_minutos
+{
+  0% {left: 44%;top: 53%;-webkit-transform: rotate(0deg);}
+  12.5% {left: 40%;top: 60%;-webkit-transform: rotate(45deg);}
+  25%  {left: 27%;top: 62%;-webkit-transform: rotate(90deg);}
+  37.5%  {left: 14%;top: 60%;-webkit-transform: rotate(135deg);}
+  50%  {left: 10%;top: 53%;-webkit-transform: rotate(180deg);}
+  62.5%  {left: 14%;top: 46%;-webkit-transform: rotate(225deg);}
+  75%  {left: 27%;top: 44%;-webkit-transform: rotate(270deg);}
+  87.5%  {left: 40%;top: 46%;-webkit-transform: rotate(315deg);}
+  100%   {left: 44%;top: 53%;-webkit-transform: rotate(360deg);}
+}
+
+.horas-programacao .horas .ponteiros:before {
+  -webkit-animation-name: ponteiro_de_minutos;
+  -webkit-animation-duration: .8s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes ponteiro_de_horas
+{
+  0% {left: 42%;top: 53%;-webkit-transform: rotate(0deg);}
+  12.5% {left: 41%;top: 58%;-webkit-transform: rotate(45deg);}
+  25%  {left: 32%;top: 60%;-webkit-transform: rotate(90deg);}
+  37.5%  {left: 24%;top: 58%;-webkit-transform: rotate(135deg);}
+  50%  {left: 20%;top: 53%;-webkit-transform: rotate(180deg);}
+  62.5%  {left: 24%;top: 49.5%;-webkit-transform: rotate(225deg);}
+  75%  {left: 32%;top: 45%;-webkit-transform: rotate(270deg);}
+  87.5%  {left: 40%;top: 49%;-webkit-transform: rotate(315deg);}
+  100%   {left: 43%;top: 53%;-webkit-transform: rotate(360deg);}
+}
+
+.horas-programacao .horas .ponteiros:after {
+  -webkit-animation-name: ponteiro_de_horas;
+  -webkit-animation-duration: 9.6s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
