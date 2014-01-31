@@ -22,6 +22,7 @@ hr {
 
 p {
   font-weight: 600;
+  font-family: "Varela Round Regular";
 }
 
 h1,
@@ -89,6 +90,27 @@ section,
   text-shadow: -0.01em 0.05em #169AA0, 0.01em 0.09em #52B8BE;
 }
 
+.continuar {
+  position: absolute;
+  right: 2.5%;
+  bottom: 5%;
+}
+
+.voltar-ao-topo {
+  position: fixed;
+  left: -5%;
+  top: 50%;
+  background: white;
+  -webkit-transform: rotate(90deg);
+  padding: 0.5em 1em;
+  z-index: 1;
+  display: none;
+}
+
+.voltar-ao-topo:hover {
+  background: #05758F;
+}
+
 /*responsividade*/
 
 @media (min-width: 320px) {
@@ -98,6 +120,15 @@ section,
 
     .header {
       height: 187px;
+    }
+
+
+    .imagem-continuar {
+      width: 20%;
+    }
+
+    .terceira-sessao .projetos {
+      min-height: 160px;
     }
 }
 
@@ -109,6 +140,14 @@ section,
     .header {
       height: 281px;
     }
+
+    .imagem-continuar {
+      width: 40%;
+    }
+
+    .terceira-sessao .projetos {
+      min-height: 240px;
+    }
 }
 
 @media (min-width: 600px) {
@@ -118,6 +157,14 @@ section,
 
     .header {
       height: 351px;
+    }
+
+    .imagem-continuar {
+      width: 60%;
+    }
+
+    .terceira-sessao .projetos {
+      min-height: 300px;
     }
 }
 
@@ -129,6 +176,14 @@ section,
     .header {
       height: 449px;
     }
+
+    .imagem-continuar {
+      width: 80%;
+    }
+
+    .terceira-sessao .projetos {
+      min-height: 384px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -138,5 +193,13 @@ section,
 
     .header {
       height: 600px;
+    }
+
+    .imagem-continuar {
+      width: 100%;
+    }
+
+    .terceira-sessao .projetos {
+      min-height: 512px;
     }
 }

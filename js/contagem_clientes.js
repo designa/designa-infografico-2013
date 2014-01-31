@@ -20,6 +20,6 @@ $(document).ready(function(){
     var scroll_responsive = (100*scroll/body_height)
     if (scroll_responsive >= 4.5 && scroll_responsive <= 6.5) {
       iniciar_contagem_clientes();
-    };
+    }
   });
 })

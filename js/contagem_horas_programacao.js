@@ -6,7 +6,7 @@ $(document).ready(function(){
         (function(i) {
           setTimeout(function(){
             $(".contagem-horas").html(i);
-          },i*50)
+          },i*1)
         })(i);
       };
     };

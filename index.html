@@ -20,8 +20,9 @@
     </head>
     <body>
         <div class="main">
+          <a href="#pagina-1" class="voltar-ao-topo">VOLTAR AO TOPO</a>
 
-          <header class="header">
+          <header class="header" id="pagina-1">
 
             <img src="img/left_cubes.png" class="left-cubes">
             <img src="img/right_cubes.png" class="right-cubes">
@@ -30,24 +31,26 @@
             <img src="img/2013.png" class="ano">
             <img src="img/bandeira_inferior.png" class="bandeira-inferior">
             <img src="img/bandeira_superior.png" class="bandeira-superior">
-            <a href="http://designa.com.br">www.designa.com.br</a>
+            <a href="http://designa.com.br" class="link-designa-site">www.designa.com.br</a>
+            <a href="#pagina-2" class="continuar" title="continuar descendo"><img src="img/arrow-down.png" class="imagem-continuar"></a>
 
           </header>
 
           <section class="segunda-sessao">
 
-            <div class="clientes-atendidos">
+            <div class="clientes-atendidos" id="pagina-2">
               <div class="quantidade">
                 <h1 class="contagem-clientes texto-com-sombra">0</h1>
                 <p class="palavra-clientes">clientes</p>
                 <p class="atendidos">atendidos no ano</p>
               </div>
               <div class="clientes"></div>
+              <a href="#pagina-3" class="continuar" title="continuar descendo"><img src="img/arrow-down.png" class="imagem-continuar"></a>
             </div>
 
             <hr>
 
-            <div class="horas-programacao">
+            <div class="horas-programacao" id="pagina-3">
               <div class="horas">
                 <h1 class="texto-com-sombra"><span class="contagem-horas">0</span> <span>h<span class="relogio"><span class="ponteiros"></span>o</span>ras</span></h1>
               </div>
@@ -57,18 +60,66 @@
               </div>
               <img src="img/notebook.png" class="notebook">
               <img src="img/partidas_futebol.png" class="partidas-futebol">
+              <a href="#pagina-4" class="continuar" title="continuar descendo"><img src="img/arrow-down.png" class="imagem-continuar"></a>
             </div>
           </section>
 
-          <section class="terceira-sessao">
+          <section class="terceira-sessao" id="pagina-4">
             
             <div class="projetos">
-              <img src="img/qts_projetos.png" class="qts-projetos">
-              <img src="img/repositorios.png" class="repositorios">
+              <div class="qts-projetos">
+                <p></p>
+                <img src="img/prancheta.png" class="prancheta">
+              </div>
+
+              <div class="projetos-no-ano">
+
+                <figure class="projetos-ano">
+                  <img src="img/projetos_ano.png">
+                  <figcaption>projetos no ano</figcaption>
+                </figure>
+
+                <div class="repositorios-publicos">
+                  <h1>6</h1>
+                  <p class="repositorios">*repositórios</p>
+                  <p class="publicos">públicos</p>
+                </div>
+
+                <div class="pontilhado-publico"></div>
+
+                <figure class="github">
+                  <img src="img/github.png">
+                  <figcaption>Github</figcaption>
+                </figure>
+
+                <div class="do-github"></div>
+
+                <img src="img/conexao_repositorio.png" class="conexao-repositorio">
+
+                <div class="para-o-bitbucket-h"></div>
+
+                <div class="para-o-bitbucket-v"></div>
+
+                <figure class="bitbucket">
+                  <img src="img/bitbucket.png">
+                  <figcaption>bitbucket</figcaption>
+                </figure>
+
+                <div class="pontilhado-privado"></div>
+
+                <div class="repositorios-privados">
+                  <h1>39</h1>
+                  <p class="repositorios">*repositórios</p>
+                  <p class="privados">privados</p>
+                </div>
+
+              </div>
+
               <div class="explicacao-repositorio">
                 <p>* Repositório é o local onde os códigos referentes a um projeto específico são armazenados e versionados.</p>
                 <p>Para nossos projetos privados utilizamos a ferramenta Bitbucket.com e para os projetos públicos o Github.com/designa.</p>
               </div>
+
             </div>
 
             <hr>
@@ -151,5 +202,8 @@
         <script src="js/main.js"></script>
         <script src="js/contagem_clientes.js"></script>
         <script src="js/contagem_horas_programacao.js"></script>
+        <script src="js/qts_projetos.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/typed.js"></script>
     </body>
 </html>

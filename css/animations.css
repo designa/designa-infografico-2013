@@ -18,14 +18,12 @@
   }
 }
 
-@-webkit-keyframes subir_ano {
-  from {
-    top: 135%;
-  }
-
-  to {
-    top: 35%;
-  }
+@-webkit-keyframes aparecer_ano {
+  0% { opacity: 0;}
+  25%  { opacity: .25;}
+  50%  { opacity: .25;}
+  75%  { opacity: .25;}
+  100%   { opacity: 1;}
 }
 
 .header .bandeira-inferior {
@@ -41,8 +39,8 @@
 }
 
 .header .ano {
-  -webkit-animation-name: subir_ano;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-name: aparecer_ano;
+  -webkit-animation-duration: 3s;
   -webkit-animation-timing-function: linear;
 }
 
@@ -84,4 +82,79 @@
   -webkit-animation-duration: 9.6s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pontilhado-publico
+{
+  0% { width: 0%;}
+  25%  { width: 5%;}
+  50%  { width: 10%;}
+  75%  { width: 15%;}
+  100%   { width: 20%;}
+}
+
+.terceira-sessao .projetos .pontilhado-publico {
+  -webkit-animation-name: pontilhado-publico;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes do-github
+{
+  0% { height: 0%; display: none;}
+  25%  { height: 9%;}
+  50%  { height: 18%;}
+  75%  { height: 27%;}
+  100%   { height: 35%;}
+}
+
+.terceira-sessao .projetos .do-github {
+  -webkit-animation-name: do-github;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes para-o-bitbucket-h
+{
+  0% { width: 0%;}
+  25%  { width: 11%;}
+  50%  { width: 22%;}
+  75%  { width: 33%;}
+  100%   { width: 45%; display: block;}
+}
+
+.terceira-sessao .projetos .para-o-bitbucket-h {
+  -webkit-animation-name: para-o-bitbucket-h;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes para-o-bitbucket-v
+{
+  0% { height: 0%;}
+  25%  { height: 11%;}
+  50%  { height: 22%;}
+  75%  { height: 33%;}
+  100%   { height: 45%; display: block;}
+}
+
+.terceira-sessao .projetos .para-o-bitbucket-v {
+  -webkit-animation-name: para-o-bitbucket-v;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pontilhado-privado
+{
+  0% { width: 0%;}
+  25%  { width: 5%;}
+  50%  { width: 10%;}
+  75%  { width: 15%;}
+  100%   { width: 20%; display: block;}
+}
+
+.terceira-sessao .projetos .pontilhado-privado {
+  -webkit-animation-name: pontilhado-privado;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
 }
