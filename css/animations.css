@@ -1,5 +1,5 @@
 @-webkit-keyframes descer_bandeira_inferior {
-	from {
+  from {
     top: -61%;
   }
 
@@ -20,16 +20,16 @@
 
 @-webkit-keyframes aparecer_ano {
   0% { opacity: 0;}
-  25%  { opacity: .25;}
-  50%  { opacity: .25;}
-  75%  { opacity: .25;}
+  25%  { opacity: 0;}
+  50%  { opacity: 0;}
+  75%  { opacity: 0;}
   100%   { opacity: 1;}
 }
 
 .header .bandeira-inferior {
   -webkit-animation-name: descer_bandeira_inferior;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
 }
 
 .header .bandeira-superior {
@@ -155,6 +155,36 @@
 
 .terceira-sessao .projetos .pontilhado-privado {
   -webkit-animation-name: pontilhado-privado;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pontilhado-web
+{
+  0% { height: 0%;}
+  25%  { height: 30%;}
+  50%  { height: 60%;}
+  75%  { height: 90%;}
+  100%   { height: 120%; display: block;}
+}
+
+@-webkit-keyframes pontilhado-desktop
+{
+  0% { height: 0%;}
+  25%  { height: 10%;}
+  50%  { height: 20%;}
+  75%  { height: 30%;}
+  100%   { height: 40%; display: block;}
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web .pontilhado-web {
+  -webkit-animation-name: pontilhado-web;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop .pontilhado-desktop {
+  -webkit-animation-name: pontilhado-desktop;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-timing-function: linear;
 }

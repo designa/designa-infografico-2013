@@ -17,7 +17,7 @@ $(document).ready(function(){
     var body_height = $("body").height();
     var scroll = $(document).scrollTop();
     var scroll_responsive = (100*scroll/body_height)
-    if (scroll_responsive >= 9 && scroll_responsive <= 10) {
+    if (scroll_responsive >= 12 && scroll_responsive <= 13) {
       iniciar_contagem_horas();
     };
   });

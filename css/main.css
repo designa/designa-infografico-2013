@@ -81,6 +81,7 @@
   display: inline-block;
   width: 100%;
   position: relative;
+  padding: 10% 0;
 }
 
 .clientes-atendidos,
@@ -90,11 +91,6 @@
 
 .clientes-atendidos .quantidade {
   width: 35%;
-}
-
-.clientes-atendidos .quantidade h1,
-.clientes-atendidos .quantidade p {
-  font-family: "Varela Round Regular";
 }
 
 .clientes-atendidos .quantidade .contagem-clientes {
@@ -141,12 +137,6 @@
 .horas-programacao {
   position: relative;
   display: inline-block;
-}
-
-.horas-programacao h1,
-.horas-programacao p,
-.horas-programacao span {
-  font-family: "Varela Round Regular";
 }
 
 .horas-programacao .horas {
@@ -276,17 +266,15 @@
 
 .terceira-sessao .projetos .projetos-ano figcaption {
   margin: -8% 0 0 4%;
-  color: white;
-  font-family: "Varela Round Regular";
   font-size: 4em;
 }
 
 .terceira-sessao .projetos .repositorios-publicos {
   background: #0A6372;
   border-radius: 2em;
-  padding: 1.5%;
+  padding: 1.5% 3%;
   position: absolute;
-  top: 0;
+  top: 9%;
   left: 25%;
   display: none;
 }
@@ -307,7 +295,6 @@
   color: #F1B702;
   font-size: 1.5em;
   text-transform: uppercase;
-  font-family: "Varela Round Regular";
 }
 
 .terceira-sessao .projetos .pontilhado-publico {
@@ -327,12 +314,10 @@
 }
 
 .terceira-sessao .projetos .github figcaption {
-  color: white;
   position: absolute;
   top: 25%;
   left: 7.5%;
   font-size: 1.5em;
-  font-family: "Varela Round Regular";
   display: none;
 }
 
@@ -383,12 +368,10 @@
 }
 
 .terceira-sessao .projetos .bitbucket figcaption {
-  color: white;
   position: absolute;
   top: 35%;
   right: 10.5%;
   font-size: 1.5em;
-  font-family: "Varela Round Regular";
   z-index: 1;
   display: none;
 }
@@ -406,9 +389,9 @@
 .terceira-sessao .projetos .repositorios-privados {
   background: #0A6372;
   border-radius: 2em;
-  padding: 1.5%;
+  padding: 1.5% 3%;
   position: absolute;
-  top: 30%;
+  top: 27.5%;
   right: 17.5%;
   display: none;
 }
@@ -429,7 +412,6 @@
   color: #22A5BB;
   font-size: 1.5em;
   text-transform: uppercase;
-  font-family: "Varela Round Regular";
 }
 
 .terceira-sessao .projetos .explicacao-repositorio p {
@@ -442,13 +424,264 @@
   display: none;
 }
 
-.terceira-sessao .tecnologias .descricao-tecnologias {
-  width: 70%;
+.terceira-sessao .tecnologias {
+  padding-bottom: 45%;
+  position: relative;
+}
+
+.terceira-sessao .tecnologias .tecnologias-header {
+  display: inline-block;
+  width: 100%;
+}
+
+.terceira-sessao .tecnologias .tecnologias-header h1 {
+  font-size: 4em;
+  color: #3AC9D8;
+  text-shadow: -.025em .025em #F1B703;
+  margin: 0;
+  display: none;
+
+}
+
+.terceira-sessao .tecnologias .tecnologias-header .divisoria {
+  height: 2em;
+  width: 2px;
+  background: #1E9CCD;
+  display: none;
+  margin: 0 1em;
+}
+
+.terceira-sessao .tecnologias .tecnologias-header p.desenvolver {
+  color: white;
+  display: inline-block;
+  font-size: 1.5em;
+  width: 40%;
+  text-align: left;
 }
 
 .terceira-sessao .tecnologias .sistemas {
+  margin: 5% auto;
+  width: 90%;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web,
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop {
+  position: relative;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web .web,
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop .desktop {
+  position: absolute;
+  display: none;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web h2,
+.terceira-sessao .tecnologias .sistemas p {
+  color: #F1B703;
+  display: none;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web .web {
+  right: -10%;
+  bottom: -35%;
+}
+
+.terceira-sessao .tecnologias .sistemas h2 {
+  font-size: 8em;
+  text-shadow: -.025em 0.025em #E19B0D;
+  margin: 0;
+}
+
+.terceira-sessao .tecnologias .sistemas p {
+  font-size: 2.5em;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web,
+.terceira-sessao .tecnologias .sistemas .grafico,
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop {
+  float: left;
+  width: 33.33%;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web .pontilhado-web,
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop .pontilhado-desktop {
+  border: dashed .25em #3ECFDE;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  width: .1em;
+  display: none;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web .pontilhado-web {
+  height: 120%;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop .pontilhado-desktop {
+  height: 40%;
+}
+
+.terceira-sessao .tecnologias .sistemas .fim-pontilhado {
+  position: absolute;
+  width: 1.5em;
+  height: 1.5em;
+  background: #3ECFDE;
+  border-radius: 50%;
+  left: -.75em;
+  display: none;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-web .fim-pontilhado {
+  bottom: -15%;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop .fim-pontilhado {
+  bottom: -50%;
+}
+
+.terceira-sessao .tecnologias .sistemas .grafico .segundo-circulo {
+  background: #EFA602;
+  border-radius: 50%;
+  height: 75%;
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+  width: 75%;
+}
+
+.terceira-sessao .tecnologias .sistemas .grafico .terceiro-circulo {
+  background: #03738E;
+  border-radius: 50%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  z-index: 2;
+}
+
+.grafico { 
   margin-top: 5%;
-  width: 70%;
+  position: relative;
+  padding-left: 4.5%;
+  display: none;
+} 
+
+.fundo-grafico { 
+  background-color: #F1B703; 
+  position: absolute;
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  -o-border-radius: 50%; 
+  border-radius: 50%; 
+} 
+
+.fundo-grafico:hover {
+  box-shadow: inset 5px 5px 10px #fff, inset 5px -5px 10px #fff;
+}
+
+.pizza { 
+  position: absolute; 
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  -o-border-radius: 50%; 
+  border-radius: 50%;
+  display: none;
+}
+
+.pizza:hover {
+  box-shadow: inset 10px 10px 10px #fff;
+} 
+
+.fixar-fatia { 
+  position: absolute; 
+  -moz-border-radius: 50%; 
+  -webkit-border-radius: 50%; 
+  -o-border-radius: 50%; 
+  border-radius: 50%; 
+} 
+
+#fatia .pizza { 
+  opacity: .6;
+  background-color: #F37902; 
+  -webkit-transform:rotate(120deg); 
+  -moz-transform:rotate(120deg); 
+  -o-transform:rotate(120deg); 
+  transform:rotate(120deg); 
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop h2,
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop p {
+  color: #F37902;
+  text-shadow: -.025em 0.025em #D77710;
+  display: none;
+}
+
+.terceira-sessao .tecnologias .sistemas .sistemas-desktop .desktop {
+  left: -10%;
+  bottom: -35%;
+}
+
+.terceira-sessao .tecnologias .sistemas figure {
+  float: left;
+  display: none;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  text-align: left;
+  padding: 0 5%;
+  width: 100%;
+  min-height: 15%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web figure {
+  margin-right: 2.5%;
+  width: 10%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web img {
+  width: 60%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web figure figcaption {
+  position: relative;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web .ruby figcaption,
+.terceira-sessao .tecnologias .sistemas .linguagens-web .css3 figcaption,
+.terceira-sessao .tecnologias .sistemas .linguagens-web .mysql figcaption {
+  left: 15%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web .jscript figcaption {
+  left: 22.5%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-web .html5 figcaption {
+  left: 12.5%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-desktop {
+  position: absolute;
+  right: 5%;
+  top: 80%;
+  text-align: left;
+  display: inline-block;
+  padding: 0 5%;
+  width: 25%;
+}
+
+.terceira-sessao .tecnologias .sistemas .linguagens-desktop figure {
+  width: 30%;
+  margin-right: 15%;
+}
+
+
+.terceira-sessao .tecnologias .sistemas .linguagens-desktop img {
+  width: 100%;
 }
 
 .terceira-sessao .hackatons {

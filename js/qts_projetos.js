@@ -3,7 +3,7 @@ $(document).ready(function(){
 		var body_height = $("body").height();
     var scroll = $(document).scrollTop();
     var scroll_responsive = (100*scroll/body_height)
-    if (scroll_responsive >= 14.5 && scroll_responsive <= 18) {
+    if (scroll_responsive >= 18.5 && scroll_responsive <= 20.5) {
      	$(function(){
 
 				$(".qts-projetos p").typed({

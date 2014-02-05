@@ -11,10 +11,10 @@ $(document).ready(function(){
     }
   });
 
-	for (var i = 1; i <= 4; i++) {
+	var total_de_paginas = $(document).find("div[id^=pagina]:last").attr("id").split("-")[1];
+	for (var i = 1; i <= total_de_paginas; i++) {
 		$('a[href^=#pagina-' + i + ']').on('click',function (e) {
 			e.preventDefault();
-
 	    var target = this.hash,
 	    $target = $(target);
 

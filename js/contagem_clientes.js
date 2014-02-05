@@ -18,7 +18,7 @@ $(document).ready(function(){
     var body_height = $("body").height();
     var scroll = $(document).scrollTop();
     var scroll_responsive = (100*scroll/body_height)
-    if (scroll_responsive >= 4.5 && scroll_responsive <= 6.5) {
+    if (scroll_responsive >= 5.5 && scroll_responsive <= 7) {
       iniciar_contagem_clientes();
     }
   });
