@@ -154,11 +154,13 @@
   color: #F1B703;
 }
 
-.horas-programacao .horas .relogio {
+.horas-programacao .horas .relogio,
+.terceira-sessao .hackatons .relogio {
   position: relative;
 }
 
-.horas-programacao .horas .relogio:before {
+.horas-programacao .horas .relogio:before,
+.terceira-sessao .hackatons .relogio:before {
   content: "";
   position: absolute;
   left: 40%;
@@ -170,7 +172,8 @@
   z-index: 3;
 }
 
-.horas-programacao .horas .ponteiros:before {
+.horas-programacao .horas .ponteiros:before,
+.terceira-sessao .hackatons .ponteiros:before {
   content: "";
   z-index: 2;
   position: absolute;
@@ -180,7 +183,8 @@
   background: white;
 }
 
-.horas-programacao .horas .ponteiros:after {
+.horas-programacao .horas .ponteiros:after,
+.terceira-sessao .hackatons .ponteiros:after {
   content: "";
   z-index: 2;
   position: absolute;
@@ -685,15 +689,192 @@
 }
 
 .terceira-sessao .hackatons {
-  margin-top: 5%;
+  margin-top: 10%;
+  min-height: 60em;
+  position: relative;
 }
 
 .terceira-sessao .hackatons .maratona {
-  width: 80%;
+  position: relative;
+  min-height: 5em;
 }
 
-.terceira-sessao .hackatons .iron-man {
-  width: 100%;
+.terceira-sessao .hackatons .maratona .pontilhado-esquerda,
+.terceira-sessao .hackatons .maratona .pontilhado-direita {
+  border: dashed .25em #38C6D5;
+  position: absolute;
+  top: 50%;
+  width: 17.5%;
+  display: none;
+}
+
+.terceira-sessao .hackatons .maratona .pontilhado-esquerda {
+  left: 10%;
+}
+
+.terceira-sessao .hackatons .maratona img {
+  width: 40%;
+  display: none;
+}
+
+.terceira-sessao .hackatons .maratona .pontilhado-direita {
+  border: dashed .25em #38C6D5;
+  position: absolute;
+  right: 10%;
+  width: 17.5%;
+}
+
+.terceira-sessao .hackatons .maratona figcaption {
+  font-size: 1.75em;
+  color: #38C5D5;
+  display: none;
+}
+
+.terceira-sessao .hackatons h1 {
+  font-size: 10em;
+  margin: .25em 10% 0 10%;
+  display: none;
+  float: left;
+  text-align: left;
+}
+
+.terceira-sessao .hackatons h1 span {
+  color: #F1B703;
+  text-shadow: 0 .025em #1FA3BC, 0.05em .05em #087F98;
+}
+
+.terceira-sessao .hackatons h1 span.fixar-seta {
+  position: relative;
+}
+
+.terceira-sessao .hackatons .tempo-suficiente {
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 2em;
+  letter-spacing: -.05em;
+  font-family: "Proxima Nova";
+  width: 50%;
+  display: none;
+}
+
+.terceira-sessao .hackatons .seta {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: -35%;
+  display: none;
+}
+
+.terceira-sessao .hackatons .esteira {
+  background: #1789A3;
+  width: 75%;
+  left: 12.5%;
+  bottom: 4em;
+  border: solid 1em #26AFC6;
+  z-index: 2;
+  position: absolute;
+  height: 5em;
+  border-radius: 10em;
+  display: none;
+}
+
+.terceira-sessao .hackatons .esteira .circulos {
+  width: 90%;
+  position: relative;
+  top: 25%;
+}
+
+.terceira-sessao .hackatons .base {
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  left: 15%;
+  display: none;
+}
+
+.terceira-sessao .hackatons .garra-esquerda {
+  position: absolute;
+  left: -15%;
+  bottom: 20%;
+  z-index: 2;
+  width: 5%;
+  display: none;
+}
+
+.terceira-sessao .hackatons .garra-esquerda .braco {
+  position: absolute;
+  width: 600%;
+  left: -500%;
+  top: 40%;
+  border-radius: 10em;
+  height: .75em;
+  background: #26AFC6;
+}
+
+.terceira-sessao .hackatons .garra-esquerda img {
+  width: 90%;
+  position: relative;
+  left: 80%;
+}
+
+.terceira-sessao .hackatons .garra-direita {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 8%;
+  z-index: 2;
+  display: none;
+}
+
+.terceira-sessao .hackatons .garra-direita .coluna {
+  width: 90%;
+  position: relative;
+}
+
+.terceira-sessao .hackatons .garra-direita .garra {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  right: 200%;
+  width: 50%;
+  top: 10%;
+}
+
+.terceira-sessao .hackatons .garra-direita .armadura {
+  position: absolute;
+  right: 150%;
+  width: 150%;
+  z-index: 2;
+  top: 18%;
+}
+
+.terceira-sessao .hackatons .garra-direita .braco-h {
+  position: absolute;
+  width: 220%;
+  right: 10%;
+  border-radius: 10em;
+  top: 5%;
+  height: .75em;
+  background: #26AFC6;
+}
+
+.terceira-sessao .hackatons .garra-direita .braco-v {
+  position: absolute;
+  height: 9%;
+  right: 219.5%;
+  border-radius: 10em;
+  top: 5.5%;
+  width: .75em;
+  background: #26AFC6;
+}
+
+.terceira-sessao .hackatons .fundo img {
+  width: 75%;
+  position: absolute;
+  left: 12.5%;
+  bottom: 0;
+  opacity: .5;
+  display: none;
 }
 
 .terceira-sessao .premios-hackatons {

@@ -3,6 +3,7 @@ $(document).ready(function(){
     var body_height = $("body").height();
     var scroll = $(document).scrollTop();
     var scroll_responsive = (100*scroll/body_height)
+    console.log(scroll_responsive);
     if (scroll_responsive >= 5) {
       $(".voltar-ao-topo").fadeIn();
     }

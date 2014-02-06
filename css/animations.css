@@ -57,7 +57,8 @@
   100%   {left: 44%;top: 53%;-webkit-transform: rotate(360deg);}
 }
 
-.horas-programacao .horas .ponteiros:before {
+.horas-programacao .horas .ponteiros:before,
+.terceira-sessao .hackatons .ponteiros:before {
   -webkit-animation-name: ponteiro_de_minutos;
   -webkit-animation-duration: .8s;
   -webkit-animation-timing-function: linear;
@@ -77,7 +78,8 @@
   100%   {left: 43%;top: 53%;-webkit-transform: rotate(360deg);}
 }
 
-.horas-programacao .horas .ponteiros:after {
+.horas-programacao .horas .ponteiros:after,
+.terceira-sessao .hackatons .ponteiros:after {
   -webkit-animation-name: ponteiro_de_horas;
   -webkit-animation-duration: 9.6s;
   -webkit-animation-timing-function: linear;
@@ -187,4 +189,113 @@
   -webkit-animation-name: pontilhado-desktop;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pontilhado-hackatons
+{
+  0% { width: 0%;}
+  25%  { width: 4%;}
+  50%  { width: 8%;}
+  75%  { width: 12%;}
+  100%   { width: 17.5%; display: block;}
+}
+
+.terceira-sessao .hackatons .maratona .pontilhado-esquerda,
+.terceira-sessao .hackatons .maratona .pontilhado-direita {
+  -webkit-animation-name: pontilhado-hackatons;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes garra-esquerda
+{
+  0% { left: -15%;}
+  10%  { left: -5%;}
+  20%  { left: 5%;}
+  30%  { left: -5%;}
+  40%  { left: -15%;}
+  50%  { left: -15%;}
+  60%  { left: -15%;}
+  70%  { left: -15%;}
+  80%  { left: -15%;}
+  90%  { left: -15%;}
+  95%  { left: -15%;}
+  100%   { left: -15%;}
+}
+
+.terceira-sessao .hackatons .garra-esquerda {
+  -webkit-animation-delay: 3s;
+  -webkit-animation-name: garra-esquerda;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes armadura
+{
+  0% { top: 18%;}
+  10% { top: 28%;}
+  20%  { top: 38%; right: 150%;}
+  30%  { top: 38%; right: 150%;}
+  40%  { top: 38%; right: 350%;}
+  50%  { top: 38%; right: 550%;}
+  60%  { top: 38%; right: 750%;}
+  70%  { top: 38%; right: 950%;}
+  80%  { top: 38%; right: 950%;}
+  90%  { top: 38%; right: 1100%;}
+  95%  { top: 38%; right: 1200%;}
+  100%   { top: 38%; right: 1300%;}
+}
+
+.terceira-sessao .hackatons .garra-direita .armadura {
+  -webkit-animation-name: armadura;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes braco-v
+{
+  0% { height: 9%;}
+  10%  { height: 19%;}
+  20%  { height: 29%;}
+  30%  { height: 19%;}
+  40%  { height: 9%;}
+  50%  { height: 9%;}
+  60%  { height: 9%;}
+  70%  { height: 9%;}
+  80%  { height: 9%;}
+  90%  { height: 9%;}
+  95%  { height: 9%;}
+  100%   { height: 9%;}
+}
+
+.terceira-sessao .hackatons .garra-direita .braco-v {
+  -webkit-animation-name: braco-v;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes garra
+{
+  0% { top: 10%;}
+  10% { top: 20%;}
+  20%  { top: 30%;}
+  30%  { top: 20%;}
+  40%  { top: 10%;}
+  50%  { top: 10%;}
+  60%  { top: 10%;}
+  70%  { top: 10%;}
+  80%  { top: 10%;}
+  90%  { top: 10%;}
+  95%  { top: 10%;}
+  100%   { top: 10%;}
+}
+
+.terceira-sessao .hackatons .garra-direita .garra {
+  -webkit-animation-name: garra;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite;
 }
