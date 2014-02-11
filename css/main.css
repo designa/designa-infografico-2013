@@ -155,12 +155,12 @@
 }
 
 .horas-programacao .horas .relogio,
-.terceira-sessao .hackatons .relogio {
+.terceira-sessao .hackathons .relogio {
   position: relative;
 }
 
 .horas-programacao .horas .relogio:before,
-.terceira-sessao .hackatons .relogio:before {
+.terceira-sessao .hackathons .relogio:before {
   content: "";
   position: absolute;
   left: 40%;
@@ -173,7 +173,7 @@
 }
 
 .horas-programacao .horas .ponteiros:before,
-.terceira-sessao .hackatons .ponteiros:before {
+.terceira-sessao .hackathons .ponteiros:before {
   content: "";
   z-index: 2;
   position: absolute;
@@ -184,7 +184,7 @@
 }
 
 .horas-programacao .horas .ponteiros:after,
-.terceira-sessao .hackatons .ponteiros:after {
+.terceira-sessao .hackathons .ponteiros:after {
   content: "";
   z-index: 2;
   position: absolute;
@@ -564,14 +564,14 @@
   z-index: 2;
 }
 
-.grafico { 
+.terceira-sessao .tecnologias .sistemas .grafico { 
   margin-top: 5%;
   position: relative;
   padding-left: 4.5%;
   display: none;
 } 
 
-.fundo-grafico { 
+.terceira-sessao .tecnologias .sistemas .fundo-grafico { 
   background-color: #F1B703; 
   position: absolute;
   -moz-border-radius: 50%; 
@@ -580,11 +580,11 @@
   border-radius: 50%; 
 } 
 
-.fundo-grafico:hover {
+.terceira-sessao .tecnologias .sistemas .fundo-grafico:hover {
   box-shadow: inset 5px 5px 10px #fff, inset 5px -5px 10px #fff;
 }
 
-.pizza { 
+.terceira-sessao .tecnologias .sistemas .pizza { 
   position: absolute; 
   -moz-border-radius: 50%; 
   -webkit-border-radius: 50%; 
@@ -593,11 +593,11 @@
   display: none;
 }
 
-.pizza:hover {
+.terceira-sessao .tecnologias .sistemas .pizza:hover {
   box-shadow: inset 10px 10px 10px #fff;
 } 
 
-.fixar-fatia { 
+.terceira-sessao .tecnologias .sistemas .fixar-fatia { 
   position: absolute; 
   -moz-border-radius: 50%; 
   -webkit-border-radius: 50%; 
@@ -605,7 +605,7 @@
   border-radius: 50%; 
 } 
 
-#fatia .pizza { 
+.terceira-sessao .tecnologias .sistemas #fatia .pizza { 
   opacity: .6;
   background-color: #F37902; 
   -webkit-transform:rotate(120deg); 
@@ -688,19 +688,19 @@
   width: 100%;
 }
 
-.terceira-sessao .hackatons {
+.terceira-sessao .hackathons {
   margin-top: 10%;
   min-height: 60em;
   position: relative;
 }
 
-.terceira-sessao .hackatons .maratona {
+.terceira-sessao .hackathons .maratona {
   position: relative;
   min-height: 5em;
 }
 
-.terceira-sessao .hackatons .maratona .pontilhado-esquerda,
-.terceira-sessao .hackatons .maratona .pontilhado-direita {
+.terceira-sessao .hackathons .maratona .pontilhado-esquerda,
+.terceira-sessao .hackathons .maratona .pontilhado-direita {
   border: dashed .25em #38C6D5;
   position: absolute;
   top: 50%;
@@ -708,29 +708,29 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .maratona .pontilhado-esquerda {
+.terceira-sessao .hackathons .maratona .pontilhado-esquerda {
   left: 10%;
 }
 
-.terceira-sessao .hackatons .maratona img {
+.terceira-sessao .hackathons .maratona img {
   width: 40%;
   display: none;
 }
 
-.terceira-sessao .hackatons .maratona .pontilhado-direita {
+.terceira-sessao .hackathons .maratona .pontilhado-direita {
   border: dashed .25em #38C6D5;
   position: absolute;
   right: 10%;
   width: 17.5%;
 }
 
-.terceira-sessao .hackatons .maratona figcaption {
+.terceira-sessao .hackathons .maratona figcaption {
   font-size: 1.75em;
   color: #38C5D5;
   display: none;
 }
 
-.terceira-sessao .hackatons h1 {
+.terceira-sessao .hackathons h1 {
   font-size: 10em;
   margin: .25em 10% 0 10%;
   display: none;
@@ -738,16 +738,16 @@
   text-align: left;
 }
 
-.terceira-sessao .hackatons h1 span {
+.terceira-sessao .hackathons h1 span {
   color: #F1B703;
   text-shadow: 0 .025em #1FA3BC, 0.05em .05em #087F98;
 }
 
-.terceira-sessao .hackatons h1 span.fixar-seta {
+.terceira-sessao .hackathons h1 span.fixar-seta {
   position: relative;
 }
 
-.terceira-sessao .hackatons .tempo-suficiente {
+.terceira-sessao .hackathons .tempo-suficiente {
   color: white;
   text-align: left;
   margin-left: 10%;
@@ -758,7 +758,7 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .seta {
+.terceira-sessao .hackathons .seta {
   width: 20%;
   position: absolute;
   top: 0;
@@ -766,7 +766,7 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .esteira {
+.terceira-sessao .hackathons .esteira {
   background: #1789A3;
   width: 75%;
   left: 12.5%;
@@ -779,13 +779,13 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .esteira .circulos {
+.terceira-sessao .hackathons .esteira .circulos {
   width: 90%;
   position: relative;
   top: 25%;
 }
 
-.terceira-sessao .hackatons .base {
+.terceira-sessao .hackathons .base {
   position: absolute;
   bottom: 0;
   width: 70%;
@@ -793,7 +793,7 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .garra-esquerda {
+.terceira-sessao .hackathons .garra-esquerda {
   position: absolute;
   left: -15%;
   bottom: 20%;
@@ -802,7 +802,7 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .garra-esquerda .braco {
+.terceira-sessao .hackathons .garra-esquerda .braco {
   position: absolute;
   width: 600%;
   left: -500%;
@@ -812,13 +812,13 @@
   background: #26AFC6;
 }
 
-.terceira-sessao .hackatons .garra-esquerda img {
+.terceira-sessao .hackathons .garra-esquerda img {
   width: 90%;
   position: relative;
   left: 80%;
 }
 
-.terceira-sessao .hackatons .garra-direita {
+.terceira-sessao .hackathons .garra-direita {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -827,12 +827,12 @@
   display: none;
 }
 
-.terceira-sessao .hackatons .garra-direita .coluna {
+.terceira-sessao .hackathons .garra-direita .coluna {
   width: 90%;
   position: relative;
 }
 
-.terceira-sessao .hackatons .garra-direita .garra {
+.terceira-sessao .hackathons .garra-direita .garra {
   position: absolute;
   -webkit-transform: rotate(90deg);
   right: 200%;
@@ -840,7 +840,7 @@
   top: 10%;
 }
 
-.terceira-sessao .hackatons .garra-direita .armadura {
+.terceira-sessao .hackathons .garra-direita .armadura {
   position: absolute;
   right: 150%;
   width: 150%;
@@ -848,7 +848,7 @@
   top: 18%;
 }
 
-.terceira-sessao .hackatons .garra-direita .braco-h {
+.terceira-sessao .hackathons .garra-direita .braco-h {
   position: absolute;
   width: 220%;
   right: 10%;
@@ -858,7 +858,7 @@
   background: #26AFC6;
 }
 
-.terceira-sessao .hackatons .garra-direita .braco-v {
+.terceira-sessao .hackathons .garra-direita .braco-v {
   position: absolute;
   height: 9%;
   right: 219.5%;
@@ -868,7 +868,7 @@
   background: #26AFC6;
 }
 
-.terceira-sessao .hackatons .fundo img {
+.terceira-sessao .hackathons .fundo img {
   width: 75%;
   position: absolute;
   left: 12.5%;
@@ -877,36 +877,531 @@
   display: none;
 }
 
-.terceira-sessao .premios-hackatons {
-  margin-top: 5%;
+.terceira-sessao .premios-hackathons {
+  margin: 5% 0;
+  display: inline-block;
+  width: 100%;
+  min-height: 40em;
+  position: relative;
 }
 
-.terceira-sessao .premios-hackatons .premios {
-  width: 90%;
-  margin-bottom: 5%;
+.terceira-sessao .premios-hackathons .premios {
+  float: left;
+  width: 100%;
 }
 
-.terceira-sessao .premios-hackatons .youtube-developer {
-  width: 80%;
+.terceira-sessao .premios-hackathons .premios .estrela {
+  float: left;
+  width: 15%;
+  padding: 1em 0;
 }
 
-.terceira-sessao .premios-hackatons .divisoria {
+.terceira-sessao .premios-hackathons .premios .estrela img {
+  width: 30%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .premios h1 {
+  color: white;
+  font-size: 5em;
+  letter-spacing: -.05em;
+  text-shadow: 0 .05em #29AFC6;
+  float: left;
+  width: 70%;
+  margin-top: 0;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .youtube,
+.terceira-sessao .premios-hackathons .chrome {
+  margin: 2.5% 0;
+  float: left;
+  width: 100%;
+}
+
+.terceira-sessao .premios-hackathons .youtube .imagem-youtube,
+.terceira-sessao .premios-hackathons .youtube .medalha,
+.terceira-sessao .premios-hackathons .chrome .imagem-chrome {
+  float: left;
+  width: 30%;
+}
+
+.terceira-sessao .premios-hackathons .youtube .imagem-youtube img {
+  width: 50%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .chrome .imagem-chrome img {
+  width: 40%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .youtube .medalha img {
+  width: 30%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube {
+  float: left;
+  width: 40%;
+  text-align: left;
+}
+
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome {
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube h2,
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 0;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube p,
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome p {
+  color: #EAB506;
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube .best-product,
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome .participacao {
+  color: #37CCDB;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.terceira-sessao .premios-hackathons .divisoria {
   background: #15859C;
   width: 50%;
   height: 2px;
   margin: 2.5% auto;
+  display: none;
 }
 
-.terceira-sessao .premios-hackatons .google-chrome {
-  width: 75%;
+.terceira-sessao .premios-hackathons .explicacao-hackathon {
+  color: white;
+  clear: both;
+  margin-top: 5%;
+  padding: 0 10%;
+  text-align: left;
+  display: none;
 }
 
-.quarta-sessao img {
+.quarta-sessao .designa-cresceu {
+  position: relative;
+  min-height: 40em; 
+}
+
+.quarta-sessao .designa-cresceu .designa-team {
   width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 5%;
+  display: none;
 }
 
-.quarta-sessao .designa-team {
-  margin: 2.5% 0 5% 0;
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-esquerda,
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-direita {
+  border: dashed .25em white;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-esquerda {
+  left: 0;
+}
+
+.quarta-sessao .designa-cresceu .designa-team img {
+  width: 50%;
+}
+
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-direita {
+  right: 0;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu {
+  position: relative;
+  float: left;
+  width: 70%;
+  padding-right: 2.5%;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .equipe-designa,
+.quarta-sessao .designa-cresceu .quanto-cresceu .cresceu,
+.quarta-sessao .designa-cresceu .quanto-cresceu .porcentagem {
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: -.05em;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .equipe-designa {
+  font-size: 6em;
+  color: white;
+  text-shadow: 0 .075em #39B1BA, .075em .075em #4ABEC5;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .cresceu {
+  font-size: 4em;
+  text-shadow: 0 .075em #26AFC6;
+  text-transform: uppercase;
+  float: left;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .porcentagem {
+  font-size: 9em;
+  display: none;
+  color: #F4C237;
+  text-shadow: 0 .075em #26AFC6;
+  text-transform: uppercase;
+  text-shadow: 0 .075em #39B1BA, .075em .075em #4ABEC5;
+  margin-left: -10%;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade {
+  float: left;
+  padding-left: 2.5%;
+  width: 30%;
+  border-left: solid .1em white;
+  position: relative;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .media,
+.quarta-sessao .designa-cresceu .media-de-idade .numero,
+.quarta-sessao .designa-cresceu .media-de-idade .anos {
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .media {
+  font-size: 2.5em;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .numero {
+  font-size: 9em;
+  display: inline;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 .05em #036C86, .075em .075em #4ABEC5;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .anos {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .boneco {
+  position: absolute;
+  width: 35%;
+  left: 32.5%;
+  top: -20%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .pontilhado-v {
+  border: dashed .2em #02728D;
+  height: 80%;
+  position: absolute;
+  bottom: -50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .pontilhado-h {
+  border: dashed .2em #02728D;
+  width: 5%;
+  position: absolute;
+  bottom: -50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .fim-pontilhado {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  background: #02728D;
+  position: absolute;
+  left: 5%;
+  bottom: -52%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos {
+  width: 80%;
+  float: left;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos img {
+  width: 5%;
+  margin: 0 1%;
+  position: relative;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos .sombra {
+  display: inline;
+  position: relative;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos .sombra span:after {
+  content: "";
+  width: 100%;
+  height: .5em;
+  background: #50C1C9;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  border-radius: 50%;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos {
+  width: 20%;
+  float: left;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p {
+  font-size: 1.5em;
+  padding-left: 15%;
+  margin-top: .5em;
+  text-align: left;
+  position: relative;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p.novos {
+  color: white;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p:before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  left: 0;
+} 
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p.veteranos:before {
+  background: #02728D;
+}
+
+.quarta-sessao .designa-cresceu .linhas {
+  width: 80%;
+  position: relative;
+  display: inline-block;
+  height: 2em;
+  margin-top: 2.5%;
+  z-index: 2;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-linha {
+  width: 52%;
+  position: relative;
+  height: 100%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao {
+  position: relative;
+  left: 50%;
+  top: 100%;
+  width: 30%;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  height: 800%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao .porcentagem {
+  display: inline-block;
+  color: white;
+  background: #F1B703;
+  padding: 26% 12%;
+  font-size: 3em;
+  position: absolute;
+  top: 20%;
+  left: -48%;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao .apple {
+  width: 75%;
+  position: absolute;
+  left: -85%;
+  top: 60%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao .circulo {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: 0;
+  bottom: -.5em;
+  background: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-linha {
+  width: 9%;
+  left: 59%;
+  top: 0;
+  height: 2em;
+  position: absolute;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao {
+  width: 250%;
+  right: 200%;
+  position: relative;
+  height: 500%;
+  top: 100%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao .porcentagem {
+  display: inline-block;
+  color: white;
+  background: #03738E;
+  padding: 12% 6%;
+  font-size: 1.5em;
+  position: absolute;
+  top: 10%;
+  right: -20%;
+  border-radius: 50%; 
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao .circulo {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0;
+  bottom: -.5em;
+  background: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha {
+  width: 28%;
+  left: 45%;
+  top: 0;
+  position: absolute;
+  height: 450%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha .porcentagem {
+  display: inline-block;
+  color: white;
+  background: #F58602;
+  padding: 8% 6%;
+  font-size: 2em;
+  position: absolute;
+  bottom: -35%;
+  right: -15%;
+  border-radius: 50%;
+  display: none;
+}
+
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha .windows {
+  width: 30%;
+  position: absolute;
+  right: -30%;
+  top: 120%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha .circulo {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0;
+  bottom: -.5em;
+  background: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .grafico {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.quarta-sessao .designa-cresceu .grafico img {
+  width: 25%;
+  margin: 5% 0;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 75%;
+  text-align: left;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p {
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  position: relative;
+  padding-left: 1.5em;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p:before {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  left: 0;
+  top: 12.5%;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p.apple:before {
+  background: #F1B703;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p.linux:before {
+  background: #03738E;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p.windows:before {
+  background: #F58602;
 }
 
 .quinta-sessao {

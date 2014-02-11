@@ -15,10 +15,8 @@ $(document).ready(function(){
   }
 
   $(window).on("scroll", function() {
-    var body_height = $("body").height();
     var scroll = $(document).scrollTop();
-    var scroll_responsive = (100*scroll/body_height)
-    if (scroll_responsive >= 5.5 && scroll_responsive <= 7) {
+    if ((scroll >= $("#pagina-2").position().top-1) && (scroll < $("#pagina-3").position().top)) {
       iniciar_contagem_clientes();
     }
   });

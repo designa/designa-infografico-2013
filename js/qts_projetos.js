@@ -1,9 +1,7 @@
 $(document).ready(function(){
 	$(window).on("scroll",function(){
-		var body_height = $("body").height();
     var scroll = $(document).scrollTop();
-    var scroll_responsive = (100*scroll/body_height)
-    if (scroll_responsive >= 18 && scroll_responsive <= 20.5) {
+    if ((scroll >= $("#pagina-4").position().top-1) && (scroll < $("#pagina-5").position().top)) {
      	$(function(){
 
 				$(".qts-projetos p").typed({

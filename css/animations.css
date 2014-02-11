@@ -58,7 +58,7 @@
 }
 
 .horas-programacao .horas .ponteiros:before,
-.terceira-sessao .hackatons .ponteiros:before {
+.terceira-sessao .hackathons .ponteiros:before {
   -webkit-animation-name: ponteiro_de_minutos;
   -webkit-animation-duration: .8s;
   -webkit-animation-timing-function: linear;
@@ -79,7 +79,7 @@
 }
 
 .horas-programacao .horas .ponteiros:after,
-.terceira-sessao .hackatons .ponteiros:after {
+.terceira-sessao .hackathons .ponteiros:after {
   -webkit-animation-name: ponteiro_de_horas;
   -webkit-animation-duration: 9.6s;
   -webkit-animation-timing-function: linear;
@@ -191,7 +191,7 @@
   -webkit-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pontilhado-hackatons
+@-webkit-keyframes pontilhado-hackathons
 {
   0% { width: 0%;}
   25%  { width: 4%;}
@@ -200,9 +200,9 @@
   100%   { width: 17.5%; display: block;}
 }
 
-.terceira-sessao .hackatons .maratona .pontilhado-esquerda,
-.terceira-sessao .hackatons .maratona .pontilhado-direita {
-  -webkit-animation-name: pontilhado-hackatons;
+.terceira-sessao .hackathons .maratona .pontilhado-esquerda,
+.terceira-sessao .hackathons .maratona .pontilhado-direita {
+  -webkit-animation-name: pontilhado-hackathons;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: linear;
 }
@@ -223,7 +223,7 @@
   100%   { left: -15%;}
 }
 
-.terceira-sessao .hackatons .garra-esquerda {
+.terceira-sessao .hackathons .garra-esquerda {
   -webkit-animation-delay: 3s;
   -webkit-animation-name: garra-esquerda;
   -webkit-animation-duration: 5s;
@@ -247,7 +247,7 @@
   100%   { top: 38%; right: 1300%;}
 }
 
-.terceira-sessao .hackatons .garra-direita .armadura {
+.terceira-sessao .hackathons .garra-direita .armadura {
   -webkit-animation-name: armadura;
   -webkit-animation-duration: 5s;
   -webkit-animation-timing-function: linear; 
@@ -270,7 +270,7 @@
   100%   { height: 9%;}
 }
 
-.terceira-sessao .hackatons .garra-direita .braco-v {
+.terceira-sessao .hackathons .garra-direita .braco-v {
   -webkit-animation-name: braco-v;
   -webkit-animation-duration: 5s;
   -webkit-animation-timing-function: linear; 
@@ -293,9 +293,85 @@
   100%   { top: 10%;}
 }
 
-.terceira-sessao .hackatons .garra-direita .garra {
+.terceira-sessao .hackathons .garra-direita .garra {
   -webkit-animation-name: garra;
   -webkit-animation-duration: 5s;
   -webkit-animation-timing-function: linear; 
   -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes girar-estrelas
+{
+  0% { -webkit-transform: rotate(0deg);}
+  25%  { -webkit-transform: rotate(90deg);}
+  50%  { -webkit-transform: rotate(180deg);}
+  75%  { -webkit-transform: rotate(270deg);}
+  100%   { -webkit-transform: rotate(360deg);}
+}
+
+.terceira-sessao .premios-hackathons .estrela img {
+  -webkit-animation-name: girar-estrelas;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aumentar-porcentagem
+{
+  0% { font-size: 1em;}
+  25%  { font-size: 3em}
+  50%  { font-size: 5em;}
+  75%  { font-size: 7em;}
+  100%   { font-size: 9em;}
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .porcentagem {
+  -webkit-animation-name: aumentar-porcentagem;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear; 
+}
+
+@-webkit-keyframes primeira-ligacao
+{
+  0% { width: 0; height: 0;}
+  25%  { width: 0; height: 400%;}
+  50%  { width: 0; height: 800%;}
+  75%  { width: 15%; height: 800%;}
+  100%   { width: 30%; height: 800%;}
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao {
+  -webkit-animation-name: primeira-ligacao;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear; 
+}
+
+@-webkit-keyframes segunda-ligacao
+{
+  0% { width: 0; height: 0;}
+  25%  { width: 0; height: 250%;}
+  50%  { width: 0; height: 500%;}
+  75%  { width: 125%; height: 500%;}
+  100%   { width: 250%; height: 500%;}
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao {
+  -webkit-animation-name: segunda-ligacao;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear; 
+}
+
+@-webkit-keyframes terceira-linha
+{
+  0% { width: 0; height: 0;}
+  25%  { width: 0; height: 225%;}
+  50%  { width: 0; height: 450%;}
+  75%  { width: 14%; height: 450%;}
+  100%   { width: 28%; height: 450%;}
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha {
+  -webkit-animation-name: terceira-linha;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear; 
 }

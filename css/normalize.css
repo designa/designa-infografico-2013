@@ -79,6 +79,7 @@ section,
   background: #59CDD3;
   text-align: center;
   display: inline-block;
+  width: 100%;
 }
 
 .pull-left {
@@ -91,7 +92,8 @@ section,
 
 .continuar {
   position: absolute;
-  right: 2.5%;
+  right: 1.5%;
+  z-index: 2;
   bottom: 5%;
 }
 
@@ -108,6 +110,10 @@ section,
 
 .voltar-ao-topo:hover {
   background: #05758F;
+}
+
+span#typed-cursor {
+  display: none;
 }
 
 /*responsividade*/
@@ -130,22 +136,22 @@ section,
       min-height: 281px;
     }
 
-    .grafico { 
+    .terceira-sessao .tecnologias .sistemas .grafico { 
       height: 94px;
     } 
 
-    .fundo-grafico { 
+    .terceira-sessao .tecnologias .sistemas .fundo-grafico { 
       width: 94px; 
       height: 94px; 
     } 
 
-    .pizza { 
+    .terceira-sessao .tecnologias .sistemas .pizza { 
       width: 94px; 
       height: 94px; 
       clip: rect(0px, 47px, 94px, 0px); 
     } 
 
-    .fixar-fatia { 
+    .terceira-sessao .tecnologias .sistemas .fixar-fatia { 
       width: 94px; 
       height: 94px; 
       clip: rect(0px, 94px, 94px, 47px); 
@@ -173,22 +179,22 @@ section,
       min-height: 421px;
     }
 
-    .grafico { 
+    .terceira-sessao .tecnologias .sistemas .grafico { 
       height: 141px;
     } 
 
-    .fundo-grafico { 
+    .terceira-sessao .tecnologias .sistemas .fundo-grafico { 
       width: 141px; 
       height: 141px; 
     } 
 
-    .pizza { 
+    .terceira-sessao .tecnologias .sistemas .pizza { 
       width: 141px; 
       height: 141px; 
       clip: rect(0px, 70px, 141px, 0px); 
     } 
 
-    .fixar-fatia { 
+    .terceira-sessao .tecnologias .sistemas .fixar-fatia { 
       width: 141px; 
       height: 141px; 
       clip: rect(0px, 141px, 141px, 70px); 
@@ -216,22 +222,22 @@ section,
       min-height: 526px;
     }
 
-    .grafico { 
+    .terceira-sessao .tecnologias .sistemas .grafico { 
       height: 176px;
     } 
 
-    .fundo-grafico { 
+    .terceira-sessao .tecnologias .sistemas .fundo-grafico { 
       width: 176px; 
       height: 176px; 
     } 
 
-    .pizza { 
+    .terceira-sessao .tecnologias .sistemas .pizza { 
       width: 176px; 
       height: 176px; 
       clip: rect(0px, 88px, 176px, 0px); 
     } 
 
-    .fixar-fatia { 
+    .terceira-sessao .tecnologias .sistemas .fixar-fatia { 
       width: 176px; 
       height: 176px; 
       clip: rect(0px, 176px, 176px, 88px); 
@@ -259,22 +265,22 @@ section,
       min-height: 674px;
     }
 
-    .grafico { 
+    .terceira-sessao .tecnologias .sistemas .grafico { 
       height: 225px;
     } 
 
-    .fundo-grafico { 
+    .terceira-sessao .tecnologias .sistemas .fundo-grafico { 
       width: 225px; 
       height: 225px; 
     } 
 
-    .pizza { 
+    .terceira-sessao .tecnologias .sistemas .pizza { 
       width: 225px; 
       height: 225px; 
       clip: rect(0px, 112.5px, 225px, 0px); 
     } 
 
-    .fixar-fatia { 
+    .terceira-sessao .tecnologias .sistemas .fixar-fatia { 
       width: 225px; 
       height: 225px; 
       clip: rect(0px, 225px, 225px, 112.5px); 
@@ -302,22 +308,22 @@ section,
       min-height: 900px;
     }
 
-    .grafico { 
+    .terceira-sessao .tecnologias .sistemas .grafico { 
       height: 300px;
     } 
 
-    .fundo-grafico { 
+    .terceira-sessao .tecnologias .sistemas .fundo-grafico { 
       width: 300px; 
       height: 300px; 
     } 
 
-    .pizza { 
+    .terceira-sessao .tecnologias .sistemas .pizza { 
       width: 300px; 
       height: 300px; 
       clip: rect(0px, 150px, 300px, 0px); 
     } 
 
-    .fixar-fatia { 
+    .terceira-sessao .tecnologias .sistemas .fixar-fatia { 
       width: 300px; 
       height: 300px; 
       clip: rect(0px, 300px, 300px, 150px); 

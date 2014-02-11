@@ -1,10 +1,8 @@
 $(document).ready(function(){
   $(window).on("scroll",function(){
-    var body_height = $("body").height();
     var scroll = $(document).scrollTop();
-    var scroll_responsive = (100*scroll/body_height)
     
-    if (scroll_responsive >= 28 && scroll_responsive <= 30) {
+    if ((scroll >= $("#pagina-5").position().top-1) && (scroll < $("#pagina-6").position().top)) {
       $(".tecnologias-header h1").fadeIn();
       $(".tecnologias-header .divisoria").css("display", "inline-block");
 
