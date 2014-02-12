@@ -1,0 +1,52 @@
+.horas-programacao .notebook {
+  float: left;
+}
+
+.horas-programacao {
+  position: relative;
+  display: inline-block;
+}
+
+.horas-programacao .horas {
+  width: 75%;
+  float: left;
+}
+
+.horas-programacao .horas h1 {
+  color: white;
+  font-size: 7em;
+  margin: 0;
+}
+
+.horas-programacao .horas span {
+  color: #F1B703;
+}
+
+.horas-programacao .programacao {
+  width: 25%;
+  margin-top: 4%;
+  float: left;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.horas-programacao .programacao p {
+  font-size: 2em;
+}
+
+.horas-programacao .partidas-futebol {
+  float: right;
+}
+
+.horas-programacao .qtd-horas {
+  width: 100%;
+}
+
+.horas-programacao .notebook {
+  width: 30%;
+  margin-top: 5%;
+}
+
+.horas-programacao .partidas-futebol {
+  width: 70%;
+}

@@ -1,0 +1,198 @@
+.terceira-sessao .projetos {
+  position: relative;
+}
+
+.terceira-sessao .projetos .qts-projetos {
+  position: relative;
+  display: inline-block;
+}
+
+.terceira-sessao .projetos .qts-projetos p {
+  font-size: 5em;
+  color: #F1B703;
+  text-shadow: .05em .05em #005677;
+  z-index: 2;
+  position: relative;
+}
+
+.terceira-sessao .projetos .qts-projetos .prancheta {
+  width: 20%;
+  position: absolute;
+  top: -25%;
+  right: 0;
+  z-index: 1;
+  display: none;
+}
+
+.terceira-sessao .projetos .projetos-no-ano {
+  padding: 10% 0;
+  position: relative;
+  display: none;
+}
+
+.terceira-sessao .projetos .projetos-ano img {
+  width: 50%;
+  margin-left: 20%;
+  position: relative;
+  z-index: 2;
+}
+
+.terceira-sessao .projetos .projetos-ano figcaption {
+  margin: -8% 0 0 4%;
+  font-size: 4em;
+}
+
+.terceira-sessao .projetos .repositorios-publicos {
+  background: #0A6372;
+  border-radius: 2em;
+  padding: 1.5% 3%;
+  position: absolute;
+  top: 9%;
+  left: 25%;
+  display: none;
+}
+
+.terceira-sessao .projetos .repositorios-publicos h1 {
+  font-size: 7em;
+  margin: 0;
+  color: #F1B702;
+  text-shadow: .025em .025em #E4A104;
+}
+
+.terceira-sessao .projetos .repositorios-publicos .repositorios {
+  font-size: 1.5em;
+  color: white;
+}
+
+.terceira-sessao .projetos .repositorios-publicos .publicos {
+  color: #F1B702;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.terceira-sessao .projetos .pontilhado-publico {
+  width: 20%;
+  position: absolute;
+  top: 30%;
+  right: 58.5%;
+  border: dashed .15em #F1B702;
+}
+
+.terceira-sessao .projetos .github img {
+  width: 7.5%;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  display: none;
+}
+
+.terceira-sessao .projetos .github figcaption {
+  position: absolute;
+  top: 25%;
+  left: 7.5%;
+  font-size: 1.5em;
+  display: none;
+}
+
+.terceira-sessao .projetos .do-github {
+  height: 35%;
+  border: dashed .15em #F1B702;
+  position: absolute;
+  left: 18.5%;
+  top: 37.5%;
+  display: none;
+}
+
+.terceira-sessao .projetos .conexao-repositorio {
+  width: 30%;
+  position: absolute;
+  left: 10%;
+  top: 75%;
+  display: none;
+}
+
+.terceira-sessao .projetos .para-o-bitbucket-h {
+  width: 45%;
+  border: dashed .15em #28B2C9;
+  position: absolute;
+  left: 40%;
+  top: 97.5%;
+  z-index: 1;
+  display: none;
+}
+
+.terceira-sessao .projetos .para-o-bitbucket-v {
+  height: 45%;
+  border: dashed .15em #28B2C9;
+  position: absolute;
+  right: 15%;
+  bottom: 2.5%;
+  z-index: 1;
+  display: none;
+}
+
+.terceira-sessao .projetos .bitbucket img {
+  width: 7.5%;
+  position: absolute;
+  right: 11%;
+  top: 40%;
+  z-index: 2;
+  display: none;
+}
+
+.terceira-sessao .projetos .bitbucket figcaption {
+  position: absolute;
+  top: 35%;
+  right: 10.5%;
+  font-size: 1.5em;
+  z-index: 1;
+  display: none;
+}
+
+.terceira-sessao .projetos .pontilhado-privado {
+  width: 20%;
+  position: absolute;
+  top: 48%;
+  right: 15%;
+  border: dashed .15em #28B2C9;
+  z-index: 1;
+  display: none;
+}
+
+.terceira-sessao .projetos .repositorios-privados {
+  background: #0A6372;
+  border-radius: 2em;
+  padding: 1.5% 3%;
+  position: absolute;
+  top: 27.5%;
+  right: 17.5%;
+  display: none;
+}
+
+.terceira-sessao .projetos .repositorios-privados h1 {
+  font-size: 7em;
+  margin: 0;
+  color: #22A5BB;
+  text-shadow: .025em .025em #2388A5;
+}
+
+.terceira-sessao .projetos .repositorios-privados .repositorios {
+  font-size: 1.5em;
+  color: white;
+}
+
+.terceira-sessao .projetos .repositorios-privados .privados {
+  color: #22A5BB;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.terceira-sessao .projetos .explicacao-repositorio p {
+  color: white;
+  padding: 0 5%;
+}
+
+.terceira-sessao .projetos .explicacao-repositorio {
+  margin-top: 5%;
+  display: none;
+}

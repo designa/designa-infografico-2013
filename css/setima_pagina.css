@@ -1,0 +1,114 @@
+.terceira-sessao .premios-hackathons {
+  margin: 5% 0;
+  display: inline-block;
+  width: 100%;
+  min-height: 40em;
+  position: relative;
+}
+
+.terceira-sessao .premios-hackathons .premios {
+  float: left;
+  width: 100%;
+}
+
+.terceira-sessao .premios-hackathons .premios .estrela {
+  float: left;
+  width: 15%;
+  padding: 1em 0;
+}
+
+.terceira-sessao .premios-hackathons .premios .estrela img {
+  width: 30%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .premios h1 {
+  color: white;
+  font-size: 5em;
+  letter-spacing: -.05em;
+  text-shadow: 0 .05em #29AFC6;
+  float: left;
+  width: 70%;
+  margin-top: 0;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .youtube,
+.terceira-sessao .premios-hackathons .chrome {
+  margin: 2.5% 0;
+  float: left;
+  width: 100%;
+}
+
+.terceira-sessao .premios-hackathons .youtube .imagem-youtube,
+.terceira-sessao .premios-hackathons .youtube .medalha,
+.terceira-sessao .premios-hackathons .chrome .imagem-chrome {
+  float: left;
+  width: 30%;
+}
+
+.terceira-sessao .premios-hackathons .youtube .imagem-youtube img {
+  width: 50%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .chrome .imagem-chrome img {
+  width: 40%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .youtube .medalha img {
+  width: 30%;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube {
+  float: left;
+  width: 40%;
+  text-align: left;
+}
+
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome {
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube h2,
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 0;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube p,
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome p {
+  color: #EAB506;
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.terceira-sessao .premios-hackathons .youtube .descricao-youtube .best-product,
+.terceira-sessao .premios-hackathons .chrome .descricao-chrome .participacao {
+  color: #37CCDB;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.terceira-sessao .premios-hackathons .divisoria {
+  background: #15859C;
+  width: 50%;
+  height: 2px;
+  margin: 2.5% auto;
+  display: none;
+}
+
+.terceira-sessao .premios-hackathons .explicacao-hackathon {
+  color: white;
+  clear: both;
+  margin-top: 5%;
+  padding: 0 10%;
+  text-align: left;
+  display: none;
+}

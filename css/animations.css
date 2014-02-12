@@ -27,21 +27,15 @@
 }
 
 .header .bandeira-inferior {
-  -webkit-animation-name: descer_bandeira_inferior;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: descer_bandeira_inferior 2s linear;
 }
 
 .header .bandeira-superior {
-  -webkit-animation-name: descer_bandeira_superior;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: descer_bandeira_superior 2s linear;
 }
 
 .header .ano {
-  -webkit-animation-name: aparecer_ano;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: aparecer_ano 3s linear;
 }
 
 @-webkit-keyframes ponteiro_de_minutos
@@ -59,14 +53,10 @@
 
 .horas-programacao .horas .ponteiros:before,
 .terceira-sessao .hackathons .ponteiros:before {
-  -webkit-animation-name: ponteiro_de_minutos;
-  -webkit-animation-duration: .8s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: ponteiro_de_minutos .8s linear infinite;
 }
 
-@-webkit-keyframes ponteiro_de_horas
-{
+@-webkit-keyframes ponteiro_de_horas {
   0% {left: 42%;top: 53%;-webkit-transform: rotate(0deg);}
   12.5% {left: 41%;top: 58%;-webkit-transform: rotate(45deg);}
   25%  {left: 32%;top: 60%;-webkit-transform: rotate(90deg);}
@@ -80,14 +70,10 @@
 
 .horas-programacao .horas .ponteiros:after,
 .terceira-sessao .hackathons .ponteiros:after {
-  -webkit-animation-name: ponteiro_de_horas;
-  -webkit-animation-duration: 9.6s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: ponteiro_de_horas 9.6s linear infinite;
 }
 
-@-webkit-keyframes pontilhado-publico
-{
+@-webkit-keyframes pontilhado-publico {
   0% { width: 0%;}
   25%  { width: 5%;}
   50%  { width: 10%;}
@@ -96,13 +82,10 @@
 }
 
 .terceira-sessao .projetos .pontilhado-publico {
-  -webkit-animation-name: pontilhado-publico;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: pontilhado-publico 1.5s linear;
 }
 
-@-webkit-keyframes do-github
-{
+@-webkit-keyframes do-github {
   0% { height: 0%; display: none;}
   25%  { height: 9%;}
   50%  { height: 18%;}
@@ -111,13 +94,10 @@
 }
 
 .terceira-sessao .projetos .do-github {
-  -webkit-animation-name: do-github;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: do-github 1.5s linear;
 }
 
-@-webkit-keyframes para-o-bitbucket-h
-{
+@-webkit-keyframes para-o-bitbucket-h {
   0% { width: 0%;}
   25%  { width: 11%;}
   50%  { width: 22%;}
@@ -126,13 +106,10 @@
 }
 
 .terceira-sessao .projetos .para-o-bitbucket-h {
-  -webkit-animation-name: para-o-bitbucket-h;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: para-o-bitbucket-h 1.5s linear;
 }
 
-@-webkit-keyframes para-o-bitbucket-v
-{
+@-webkit-keyframes para-o-bitbucket-v {
   0% { height: 0%;}
   25%  { height: 11%;}
   50%  { height: 22%;}
@@ -141,13 +118,10 @@
 }
 
 .terceira-sessao .projetos .para-o-bitbucket-v {
-  -webkit-animation-name: para-o-bitbucket-v;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: para-o-bitbucket-v 1.5s linear;
 }
 
-@-webkit-keyframes pontilhado-privado
-{
+@-webkit-keyframes pontilhado-privado {
   0% { width: 0%;}
   25%  { width: 5%;}
   50%  { width: 10%;}
@@ -156,13 +130,10 @@
 }
 
 .terceira-sessao .projetos .pontilhado-privado {
-  -webkit-animation-name: pontilhado-privado;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: pontilhado-privado 1.5s linear;
 }
 
-@-webkit-keyframes pontilhado-web
-{
+@-webkit-keyframes pontilhado-web {
   0% { height: 0%;}
   25%  { height: 30%;}
   50%  { height: 60%;}
@@ -170,8 +141,7 @@
   100%   { height: 120%; display: block;}
 }
 
-@-webkit-keyframes pontilhado-desktop
-{
+@-webkit-keyframes pontilhado-desktop {
   0% { height: 0%;}
   25%  { height: 10%;}
   50%  { height: 20%;}
@@ -180,19 +150,14 @@
 }
 
 .terceira-sessao .tecnologias .sistemas .sistemas-web .pontilhado-web {
-  -webkit-animation-name: pontilhado-web;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: pontilhado-web .5s linear;
 }
 
 .terceira-sessao .tecnologias .sistemas .sistemas-desktop .pontilhado-desktop {
-  -webkit-animation-name: pontilhado-desktop;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: pontilhado-desktop 1.5s linear;
 }
 
-@-webkit-keyframes pontilhado-hackathons
-{
+@-webkit-keyframes pontilhado-hackathons {
   0% { width: 0%;}
   25%  { width: 4%;}
   50%  { width: 8%;}
@@ -202,13 +167,10 @@
 
 .terceira-sessao .hackathons .maratona .pontilhado-esquerda,
 .terceira-sessao .hackathons .maratona .pontilhado-direita {
-  -webkit-animation-name: pontilhado-hackathons;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
+  -webkit-animation: pontilhado-hackathons 1s linear;
 }
 
-@-webkit-keyframes garra-esquerda
-{
+@-webkit-keyframes garra-esquerda {
   0% { left: -15%;}
   10%  { left: -5%;}
   20%  { left: 5%;}
@@ -224,15 +186,10 @@
 }
 
 .terceira-sessao .hackathons .garra-esquerda {
-  -webkit-animation-delay: 3s;
-  -webkit-animation-name: garra-esquerda;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: linear; 
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: garra-esquerda 5s linear 3s infinite;
 }
 
-@-webkit-keyframes armadura
-{
+@-webkit-keyframes armadura {
   0% { top: 18%;}
   10% { top: 28%;}
   20%  { top: 38%; right: 150%;}
@@ -248,14 +205,10 @@
 }
 
 .terceira-sessao .hackathons .garra-direita .armadura {
-  -webkit-animation-name: armadura;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: linear; 
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: armadura 5s linear infinite;
 }
 
-@-webkit-keyframes braco-v
-{
+@-webkit-keyframes braco-v {
   0% { height: 9%;}
   10%  { height: 19%;}
   20%  { height: 29%;}
@@ -271,14 +224,10 @@
 }
 
 .terceira-sessao .hackathons .garra-direita .braco-v {
-  -webkit-animation-name: braco-v;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: linear; 
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: braco-v 5s linear infinite;
 }
 
-@-webkit-keyframes garra
-{
+@-webkit-keyframes garra {
   0% { top: 10%;}
   10% { top: 20%;}
   20%  { top: 30%;}
@@ -294,14 +243,10 @@
 }
 
 .terceira-sessao .hackathons .garra-direita .garra {
-  -webkit-animation-name: garra;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: linear; 
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: garra 5s linear infinite;
 }
 
-@-webkit-keyframes girar-estrelas
-{
+@-webkit-keyframes girar-estrelas {
   0% { -webkit-transform: rotate(0deg);}
   25%  { -webkit-transform: rotate(90deg);}
   50%  { -webkit-transform: rotate(180deg);}
@@ -310,14 +255,10 @@
 }
 
 .terceira-sessao .premios-hackathons .estrela img {
-  -webkit-animation-name: girar-estrelas;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-timing-function: linear; 
-  -webkit-animation-iteration-count: infinite;
+  -webkit-animation: girar-estrelas 5s linear infinite;
 }
 
-@-webkit-keyframes aumentar-porcentagem
-{
+@-webkit-keyframes aumentar-porcentagem {
   0% { font-size: 1em;}
   25%  { font-size: 3em}
   50%  { font-size: 5em;}
@@ -326,13 +267,10 @@
 }
 
 .quarta-sessao .designa-cresceu .quanto-cresceu .porcentagem {
-  -webkit-animation-name: aumentar-porcentagem;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear; 
+  -webkit-animation: aumentar-porcentagem 1s linear;
 }
 
-@-webkit-keyframes primeira-ligacao
-{
+@-webkit-keyframes primeira-ligacao {
   0% { width: 0; height: 0;}
   25%  { width: 0; height: 400%;}
   50%  { width: 0; height: 800%;}
@@ -341,13 +279,10 @@
 }
 
 .quarta-sessao .designa-cresceu .linhas .primeira-ligacao {
-  -webkit-animation-name: primeira-ligacao;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: linear; 
+  -webkit-animation: primeira-ligacao 2s linear;
 }
 
-@-webkit-keyframes segunda-ligacao
-{
+@-webkit-keyframes segunda-ligacao {
   0% { width: 0; height: 0;}
   25%  { width: 0; height: 250%;}
   50%  { width: 0; height: 500%;}
@@ -356,13 +291,10 @@
 }
 
 .quarta-sessao .designa-cresceu .linhas .segunda-ligacao {
-  -webkit-animation-name: segunda-ligacao;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: linear; 
+  -webkit-animation: segunda-ligacao 2s linear;
 }
 
-@-webkit-keyframes terceira-linha
-{
+@-webkit-keyframes terceira-linha {
   0% { width: 0; height: 0;}
   25%  { width: 0; height: 225%;}
   50%  { width: 0; height: 450%;}
@@ -371,7 +303,17 @@
 }
 
 .quarta-sessao .designa-cresceu .linhas .terceira-linha {
-  -webkit-animation-name: terceira-linha;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear; 
+  -webkit-animation: terceira-linha 1.5s linear;
+}
+
+@-webkit-keyframes aumentar-boneco-cafe {
+  0% { height: 0;}
+  25%  { height: 20%;}
+  50%  { height: 40%;}
+  75%  { height: 60%;}
+  100%   { height: auto;}
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .boneco-cafe {
+  -webkit-animation: aumentar-boneco-cafe 1.5s linear;
 }

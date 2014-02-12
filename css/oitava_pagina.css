@@ -1,0 +1,411 @@
+.quarta-sessao .designa-cresceu {
+  position: relative;
+  min-height: 40em; 
+}
+
+.quarta-sessao .designa-cresceu .designa-team {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 5%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-esquerda,
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-direita {
+  border: dashed .25em white;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-esquerda {
+  left: 0;
+}
+
+.quarta-sessao .designa-cresceu .designa-team img {
+  width: 50%;
+}
+
+.quarta-sessao .designa-cresceu .designa-team .pontilhado-direita {
+  right: 0;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu {
+  position: relative;
+  float: left;
+  width: 70%;
+  padding-right: 2.5%;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .equipe-designa,
+.quarta-sessao .designa-cresceu .quanto-cresceu .cresceu,
+.quarta-sessao .designa-cresceu .quanto-cresceu .porcentagem {
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: -.05em;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .equipe-designa {
+  font-size: 6em;
+  color: white;
+  text-shadow: 0 .075em #39B1BA, .075em .075em #4ABEC5;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .cresceu {
+  font-size: 4em;
+  text-shadow: 0 .075em #26AFC6;
+  text-transform: uppercase;
+  float: left;
+}
+
+.quarta-sessao .designa-cresceu .quanto-cresceu .porcentagem {
+  font-size: 9em;
+  display: none;
+  color: #F4C237;
+  text-shadow: 0 .075em #26AFC6;
+  text-transform: uppercase;
+  text-shadow: 0 .075em #39B1BA, .075em .075em #4ABEC5;
+  margin-left: -10%;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade {
+  float: left;
+  padding-left: 2.5%;
+  width: 30%;
+  border-left: solid .1em white;
+  position: relative;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .media,
+.quarta-sessao .designa-cresceu .media-de-idade .numero,
+.quarta-sessao .designa-cresceu .media-de-idade .anos {
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .media {
+  font-size: 2.5em;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .numero {
+  font-size: 9em;
+  display: inline;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 .05em #036C86, .075em .075em #4ABEC5;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .anos {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.quarta-sessao .designa-cresceu .media-de-idade .boneco {
+  position: absolute;
+  width: 35%;
+  left: 32.5%;
+  top: -20%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .pontilhado-v {
+  border: dashed .2em #02728D;
+  height: 80%;
+  position: absolute;
+  bottom: -50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .pontilhado-h {
+  border: dashed .2em #02728D;
+  width: 5%;
+  position: absolute;
+  bottom: -50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .fim-pontilhado {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+  background: #02728D;
+  position: absolute;
+  left: 5%;
+  bottom: -52%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos {
+  width: 80%;
+  float: left;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos img {
+  width: 5%;
+  margin: 0 1%;
+  position: relative;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos .sombra {
+  display: inline;
+  position: relative;
+}
+
+.quarta-sessao .designa-cresceu .bonecos-equipe .bonecos .sombra span:after {
+  content: "";
+  width: 100%;
+  height: .5em;
+  background: #50C1C9;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  border-radius: 50%;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos {
+  width: 20%;
+  float: left;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p {
+  font-size: 1.5em;
+  padding-left: 15%;
+  margin-top: .5em;
+  text-align: left;
+  position: relative;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p.novos {
+  color: white;
+}
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p:before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  left: 0;
+} 
+
+.quarta-sessao .designa-cresceu .veteranos-e-novos p.veteranos:before {
+  background: #02728D;
+}
+
+.quarta-sessao .designa-cresceu .linhas {
+  width: 80%;
+  position: relative;
+  display: inline-block;
+  height: 2em;
+  margin-top: 2.5%;
+  z-index: 2;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-linha {
+  width: 52%;
+  position: relative;
+  height: 100%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao {
+  position: relative;
+  left: 50%;
+  top: 100%;
+  width: 30%;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  height: 800%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao .porcentagem {
+  display: inline-block;
+  color: white;
+  background: #F1B703;
+  padding: 26% 12%;
+  font-size: 3em;
+  position: absolute;
+  top: 20%;
+  left: -48%;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao .apple {
+  width: 75%;
+  position: absolute;
+  left: -85%;
+  top: 60%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .primeira-ligacao .circulo {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: 0;
+  bottom: -.5em;
+  background: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-linha {
+  width: 9%;
+  left: 59%;
+  top: 0;
+  height: 2em;
+  position: absolute;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  border-left: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao {
+  width: 250%;
+  right: 200%;
+  position: relative;
+  height: 500%;
+  top: 100%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao .porcentagem {
+  display: inline-block;
+  color: white;
+  background: #03738E;
+  padding: 12% 6%;
+  font-size: 1.5em;
+  position: absolute;
+  top: 10%;
+  right: -20%;
+  border-radius: 50%; 
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .segunda-ligacao .circulo {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0;
+  bottom: -.5em;
+  background: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha {
+  width: 28%;
+  left: 45%;
+  top: 0;
+  position: absolute;
+  height: 450%;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha .porcentagem {
+  display: inline-block;
+  color: white;
+  background: #F58602;
+  padding: 8% 6%;
+  font-size: 2em;
+  position: absolute;
+  bottom: -35%;
+  right: -15%;
+  border-radius: 50%;
+  display: none;
+}
+
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha .windows {
+  width: 30%;
+  position: absolute;
+  right: -30%;
+  top: 120%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .linhas .terceira-linha .circulo {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 0;
+  bottom: -.5em;
+  background: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .grafico {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.quarta-sessao .designa-cresceu .grafico img {
+  width: 25%;
+  margin: 5% 0;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 75%;
+  text-align: left;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p {
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  position: relative;
+  padding-left: 1.5em;
+  display: none;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p:before {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  left: 0;
+  top: 12.5%;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p.apple:before {
+  background: #F1B703;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p.linux:before {
+  background: #03738E;
+}
+
+.quarta-sessao .designa-cresceu .grafico .legenda p.windows:before {
+  background: #F58602;
+}

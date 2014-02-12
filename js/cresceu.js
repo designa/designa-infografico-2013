@@ -35,7 +35,7 @@ $(document).ready(function(){
       $(".linhas .segunda-ligacao .porcentagem, .linhas .segunda-ligacao .circulo").delay(13500).fadeIn();
 
       $(".linhas .terceira-linha").delay(14000).fadeIn();
-      $(".linhas .terceira-linha .porcentagem, .linhas .terceira-linha .windows, .linhas .terceira-linha .circulo").delay(15000).fadeIn();
+      $(".linhas .terceira-linha .porcentagem, .linhas .terceira-linha .windows, .linhas .terceira-linha .circulo").delay(15500).fadeIn();
 
       $(".legenda .apple").delay(15500).fadeIn();
       $(".legenda .linux").delay(16000).fadeIn();

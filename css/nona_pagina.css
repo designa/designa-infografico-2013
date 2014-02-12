@@ -1,0 +1,212 @@
+.quarta-sessao .quanto-consumiu {
+  margin-top: 5%;
+  border-top: solid 2px white;
+  padding: 5% 0;
+  min-height: 40em;
+}
+
+.quarta-sessao .quanto-consumiu .equipe-consumiu,
+.quarta-sessao .quanto-consumiu .cafe .quantidade,
+.quarta-sessao .quanto-consumiu .cafe .litros-de-cafe {
+  text-align: left;
+  letter-spacing: -.05em;
+  position: relative;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .quantidade,
+.quarta-sessao .quanto-consumiu .cafe .litros-de-cafe {
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .equipe-consumiu {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0 .075em #39B1BA, .075em .075em #4ABEC5;
+}
+
+.quarta-sessao .quanto-consumiu .cafe {
+  position: relative;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .seta-direita {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  width: 15%;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .cafe,
+.quarta-sessao .quanto-consumiu .arnaldo {
+  width: 50%;
+  float: left;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .quantidade {
+  font-size: 12.5em;
+  color: #0B5B68;
+  font-weight: bold;
+  text-shadow: 0 .075em #26AFC6;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .litros-de-cafe {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: white;
+  margin-top: -1em;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .litros-de-cafe span {
+  display: block;
+  font-weight: bold;
+  font-size: 5em;
+  text-transform: lowercase;
+  margin-top: -.25em;
+  color: #7F441C;
+  text-shadow: 0 .05em #662F0D;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .litros-de-cafe .caneca-cafe {
+  position: absolute;
+  right: 15%;
+  top: 0;
+  width: 30%;
+}
+
+.quarta-sessao .quanto-consumiu .cafe .seta-baixo {
+  float: left;
+  margin: 5% 0 0 15%;
+  width: 20%;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo {
+  padding-top: 10%;
+  position: relative;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .boneco-cafe {
+  width: 25%;
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+  z-index: 2;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .cada-um-consumiu,
+.quarta-sessao .quanto-consumiu .arnaldo .por-dia {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -.05em;
+  font-size: 1.5em;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .cada-um-consumiu span {
+  display: block;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .por-dia span {
+  position: relative;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .por-dia span:before {
+  content: "";
+  width: 50%;
+  position: absolute;
+  left: -75%;
+  top: 25%;
+  border: dashed .05em white;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .por-dia span:after {
+  content: "";
+  width: .2em;
+  height: .2em;
+  position: absolute;
+  left: -17.5%;
+  top: 20%;
+  background: white;
+  border-radius: 50%;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .pode-isso {
+  color: #f4d790;
+  font-size: 6em;
+  text-shadow: 0 .075em #EBB708, .075em .075em #4FC4C8;
+  letter-spacing: -.05em;
+  font-weight: bold;
+  text-align: right;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .pode-isso span {
+  display: block;
+  color: #f4d790;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quarta-sessao .quanto-consumiu .arnaldo .por-dia span {
+  text-transform: lowercase;
+  color: #7F441C;
+  text-shadow: 0 .05em #662F0D;
+  font-size: 2.5em;
+  letter-spacing: -.09em;
+  font-weight: bold;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante {
+  display: inline-block;
+  width: 100%;
+  padding: 2% 0;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .equivalente-a {
+  text-align: left;
+  font-size: 3em;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .latas {
+  float: left;
+  width: 65%;
+  padding: 2% 0;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .latas img {
+  width: 7.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .texto-latas {
+  float: left;
+  width: 35%;
+  display: none;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .texto-latas .qtd-latas,
+.quarta-sessao .quanto-consumiu .refrigerante .texto-latas .latas-de-refrigerante {
+  text-align: left;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .texto-latas .qtd-latas {
+  text-shadow: 0 .075em #1C8C98, .075em .075em #4ABEC5;
+  font-size: 10em;
+  color: white;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .texto-latas .latas-de-refrigerante {
+  font-size: 2.5em;
+}
+
+.quarta-sessao .quanto-consumiu .refrigerante .texto-latas .latas-de-refrigerante span {
+  color: white;
+  display: block;
+  font-size: 2em;
+}

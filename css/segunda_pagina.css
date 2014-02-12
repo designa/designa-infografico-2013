@@ -1,0 +1,55 @@
+.clientes-atendidos {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding: 10% 0;
+}
+
+.clientes-atendidos,
+.clientes-atendidos img {
+  vertical-align: middle;
+}
+
+.clientes-atendidos .quantidade {
+  width: 35%;
+}
+
+.clientes-atendidos .quantidade .contagem-clientes {
+  font-size: 13em;
+  margin: 0;
+  color: #F1B703;
+}
+
+.clientes-atendidos .quantidade p.palavra-clientes {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.clientes-atendidos .quantidade p.atendidos {
+  font-size: 1.7em;
+}
+
+.clientes-atendidos .clientes {
+  width: 65%;
+  padding: 5% 3% 5% 3%;
+  float: left;
+}
+
+.clientes-atendidos .boneco-clientes {
+  margin: 0 0 1% 1%;
+  width: 6%;
+  float: left;
+  -webkit-filter: grayscale(100%) brightness(200%);
+}
+
+.clientes-atendidos .boneco-clientes:hover {
+  -webkit-filter: grayscale(0%) brightness(100%);
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.clientes-atendidos .quantidade {
+  float: left;
+}
