@@ -1,0 +1,162 @@
+.quarta-sessao .quanto-andou {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	min-height: 40em;
+}
+
+.quarta-sessao .quanto-andou .andamos {
+	padding: 5% 0;
+	border-top: solid 2px white;
+	display: inline-block;
+	width: 100%
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-texto {
+	float: left;
+	width: 60%;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-texto p {
+	text-align: left;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-texto .andamos-aproximadamente {
+	font-size: 2em;
+	font-weight: bold;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-texto .qtd-andamos {
+	text-shadow: 0 .075em #EBB708, .075em .075em #4FC4C8;
+	color: #f4d790;
+	font-weight: bold;
+	font-size: 8em;
+	letter-spacing: -.05em;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-texto .ir-e-voltar {
+	color: white;
+	font-size: 2em;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-imagem {
+	float: right;
+	position: relative;
+	width: 40%;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-imagem .pontilhado {
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left: -12.5%;
+	border: dashed .15em white;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-imagem .fim-pontilhado {
+	width: .75em;
+	height: .75em;
+	background: white;
+	position: absolute;
+	left: 10%;
+	top: 48%;
+	border-radius: 50%;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .andamos .andamos-imagem img {
+	width: 80%;
+	float: right;
+	display: none;
+	position: relative;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-texto {
+	width: 50%;
+	float: left;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem {
+	width: 50%;
+	float: left;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-texto .bloco {
+	background: #0B5B68;
+	border-radius: 3em;
+	padding: 2em 3em;
+	display: inline-block;
+	text-align: left;
+	margin-top: 20%;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-texto .bloco .viajassemos {
+	color: #E48208;
+	font-size: 1.5em;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-texto .bloco .x-vezes {
+	text-shadow: 0 .075em #EBB708, .075em .075em #0B5560;
+	color: #f4d790;
+	font-size: 5em;
+	font-weight: bold;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-texto .bloco .distancia {
+	color: #47B3BA;
+	font-size: 1.25em;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem {
+	position: relative;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .mapa {
+	width: 80%;
+	float: right;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .carro-menor {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 15%;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .oiapoque-a-chui {
+	position: absolute;
+	width: 75%;
+	top: 30%;
+	left: 25%;
+	height: 40%;
+	border-radius: 100%;
+	border-bottom: dashed .25em #0B5B68;
+	-webkit-transform: rotate(105deg);
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .pontilhado {
+	position: absolute;
+	left: 5%;
+	width: 40%;
+	top: 50%;
+	border: dashed .2em #0B5B68;
+	display: none;
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .pontilhado:before {
+	content: "";
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	left: -.5em;
+	top: -.5em;
+	background: #0B5B68;
+	border-radius: 50%;
+}

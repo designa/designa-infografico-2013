@@ -317,3 +317,25 @@
 .quarta-sessao .quanto-consumiu .arnaldo .boneco-cafe {
   -webkit-animation: aumentar-boneco-cafe 1.5s linear;
 }
+
+@-webkit-keyframes andar-carro {
+  0% { top: 0;}
+  100%   { top: -.25em;}
+}
+
+.andamos .andamos-imagem img {
+  -webkit-animation: andar-carro .5s linear infinite;
+}
+
+@-webkit-keyframes andar-carro-menor {
+  0% { top: 80%; left: 40%; -webkit-transform: rotate(-45deg); opacity: 1;}
+  20%  { top: 60%; left: 35%; -webkit-transform: rotate(-20deg); opacity: 1;}
+  40%  { top: 40%; left: 36%; -webkit-transform: rotate(-8deg); opacity: 1;}
+  60%  { top: 20%; left: 40%; -webkit-transform: rotate(3deg); opacity: 1;}
+  80%   { top: 0; left: 50%; -webkit-transform: rotate(25deg); opacity: 0;}
+  100%   { top: 80%; left: 40%; -webkit-transform: rotate(-45deg); opacity: 0;}
+}
+
+.quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .carro-menor {
+  -webkit-animation: andar-carro-menor 3s linear infinite;
+}
