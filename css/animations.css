@@ -339,3 +339,19 @@
 .quarta-sessao .quanto-andou .mesma-coisa .mesma-coisa-imagem .carro-menor {
   -webkit-animation: andar-carro-menor 3s linear infinite;
 }
+
+@-webkit-keyframes piscar-texto {
+  0% { opacity: 1;}
+  12.5%  { opacity: 0;}
+  25%  { opacity: 1;}
+  37.5%  { opacity: 0;}
+  50%  { opacity: 1;}
+  62.5%  { opacity: 0;}
+  75%  { opacity: 1;}
+  87.5%  { opacity: 0;}
+  100%   { opacity: 1;}
+}
+
+.quinta-sessao .express-projects .projects p span {
+  -webkit-animation: piscar-texto .75s ease-in-out 2s;
+}

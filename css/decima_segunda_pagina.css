@@ -1,0 +1,64 @@
+.quinta-sessao .express-projects {
+	display: inline-block;
+	width: 100%;
+	padding: 0 7.5%;
+	position: relative;
+	min-height: 34em;
+}
+
+.quinta-sessao .express-projects .projects h1 {
+	position: relative;
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: -.05em;
+	color: #59CCD2;
+	text-shadow: 0 .075em #CC501D, .075em .075em #E06E27;
+	display: none;
+}
+
+.quinta-sessao .express-projects .projects h1:after {
+	content: "em apenas";
+	font-size: .35em;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+	position: absolute;
+	right: -30%;
+	top: 50%;
+	color: white;
+}
+
+.quinta-sessao .express-projects .projects p {
+	text-align: right;
+	letter-spacing: -.05em;
+	margin-top: -.5em;
+  color: #F1B703;
+  text-shadow: 0 .075em #CD4C1A, .075em .075em #DF6B26;
+  font-size: 9em;
+  font-weight: bold;
+  display: none;
+}
+
+.quinta-sessao .express-projects .projects p span {
+	color: #F1B703;
+}
+
+.quinta-sessao .express-projects .caixas {
+	display: inline-block;
+	width: 100%;
+	margin-top: -10%;
+	padding-left: 5%;
+	text-align: left;
+	display: none;
+}
+
+.quinta-sessao .express-projects .caixas img {
+	width: 90%;
+} 
+
+.quinta-sessao .express-projects .o-que-sao {
+	text-align: left;
+	color: white;
+	display: none;
+}

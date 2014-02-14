@@ -1,0 +1,107 @@
+.quinta-sessao hr {
+  background: #F3A775;
+  width: 85%;
+  margin: 3% auto;
+}
+
+.quinta-sessao .eventos-e-cursos {
+  padding: 0 7.5%;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  min-height: 34em;
+}
+
+.quinta-sessao .eventos-e-cursos .aprendizado {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.quinta-sessao .eventos-e-cursos .aprendizado .pontilhado-esquerda,
+.quinta-sessao .eventos-e-cursos .aprendizado .pontilhado-direita {
+  border: dashed .25em #F6921E;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .aprendizado .pontilhado-esquerda {
+  left: 5%;
+}
+
+.quinta-sessao .eventos-e-cursos .aprendizado img {
+  width: 40%;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .aprendizado .pontilhado-direita {
+  right: 5%;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto {
+  text-align: left;
+  width: 80%;
+  float: left;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .horas {
+  letter-spacing: -.05em;
+  margin: 0;
+  color: #F1B703;
+  text-shadow: 0 .075em #CD4C1A, .075em .075em #DF6B26;
+  font-size: 9em;
+  font-weight: bold;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .horas span {
+  color: #F1B703;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .labs {
+  color: white;
+  font-size: 1.5em;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .equivalem-a-aproximadamente {
+  float: left;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .equivalem-a-aproximadamente .equivalem,
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .pos-graduacao p {
+  color: #982D13;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .equivalem-a-aproximadamente .equivalem {
+  margin: 2% 0 1% 0;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .equivalem-a-aproximadamente .nove-cursos {
+  color: #D3471C;
+  font-size: 6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-texto .pos-graduacao {
+  display: inline-block;
+  margin: 5em 0 0 2%;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-imagem {
+  width: 20%;
+  float: left;
+  display: none;
+}
+
+.quinta-sessao .eventos-e-cursos .horas-gastas .horas-gastas-imagem img {
+  width: 100%;
+}
